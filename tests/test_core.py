@@ -167,6 +167,22 @@ class ContractTests(unittest.TestCase):
         self.assertEqual(features["apple_genre_hhi"], 1.0)
         self.assertEqual(features["apple_chart_tracks"], 1)
         self.assertEqual(features["apple_share_new_90d"], 1.0)
+        rfc = apple_chart_features(
+            {
+                "feed": {
+                    "updated": "Thu, 22 Oct 2026 05:46:59 +0000",
+                    "results": [
+                        {
+                            "artistName": "Artist",
+                            "releaseDate": "2026-10-13",
+                            "genres": [{"name": "K-Pop"}],
+                        }
+                    ],
+                }
+            }
+        )
+        self.assertEqual(rfc["apple_chart_as_of"], "2026-10-22")
+        self.assertEqual(rfc["apple_share_new_90d"], 1.0)
 
 
 class AllocationTests(unittest.TestCase):

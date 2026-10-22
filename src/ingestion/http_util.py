@@ -52,10 +52,17 @@ def fetch(
             continue
         last_url = response.url
         last_status = response.status_code
-        if response.status_code in {429, 500, 502, 503, 504}:
+        if response.status_code == 429 or response.status_code in {500, 502, 503, 504}:
             last_error = f"HTTP {response.status_code}"
-            logger.info("retry %s/%s %s (%s)", attempt, max_attempts, last_url, last_error)
-            time.sleep(min(2 ** attempt, 12))
+            retry_after = response.headers.get("Retry-After")
+            try:
+                wait = float(retry_after) if retry_after else min(8 * attempt, 40)
+            except ValueError:
+                wait = min(8 * attempt, 40)
+            if response.status_code != 429:
+                wait = min(2 ** attempt, 12)
+            logger.info("retry %s/%s %s (%s, wait %.0fs)", attempt, max_attempts, last_url, last_error, wait)
+            time.sleep(wait)
             continue
         if response.status_code >= 400:
             snippet = response.content[:300].decode("utf-8", "replace")

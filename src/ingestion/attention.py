@@ -92,8 +92,17 @@ def pageview_window(today: date | None = None) -> dict:
 
 
 def _entity_text(entity: dict) -> str:
-    label = ((entity.get("labels") or {}).get("en") or {}).get("value") or ""
-    description = ((entity.get("descriptions") or {}).get("en") or {}).get("value") or ""
+    labels = entity.get("labels") or {}
+    # Some items keep the Latin name on the multilingual label (`mul`) and
+    # have no `en` label. Instagram is one of those.
+    label = ""
+    for language in ("en", "mul"):
+        value = (labels.get(language) or {}).get("value")
+        if isinstance(value, str) and value.strip():
+            label = value
+            break
+    descriptions = entity.get("descriptions") or {}
+    description = (descriptions.get("en") or descriptions.get("mul") or {}).get("value") or ""
     return f"{label} {description}".strip().lower()
 
 
@@ -140,7 +149,7 @@ def _fetch_entities(qids: list[str]) -> dict:
             "action": "wbgetentities",
             "ids": "|".join(qids),
             "props": "labels|descriptions|sitelinks",
-            "languages": "en",
+            "languages": "en|mul",
             "format": "json",
         },
         timeout=60,
@@ -288,8 +297,8 @@ def fetch_attention(run_id: str, today: date | None = None) -> dict:
                 )
                 continue
             url = _pageview_url(market.wiki_project, title, window)
-            result = fetch(url, timeout=40, max_attempts=3)
-            time.sleep(0.12)
+            result = fetch(url, timeout=40, max_attempts=4)
+            time.sleep(0.5)
             if not result.ok or result.body is None:
                 record_failure(
                     run_id,

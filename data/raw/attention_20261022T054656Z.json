@@ -1,0 +1,8306 @@
+{
+  "source": "wikimedia_pageviews",
+  "pulled_at": "2026-10-22T05:54:03Z",
+  "run_id": "20261022T054656Z",
+  "docs": "https://doc.wikimedia.org/generated-data-platform/aqs/analytics-api/",
+  "window": {
+    "prior_start_ym": 202410,
+    "last_start_ym": 202510,
+    "end_ym": 202609,
+    "request_start": "2024100100",
+    "request_end": "2026090100"
+  },
+  "hong_kong_project": "zh-yue.wikipedia",
+  "china_project": "zh.wikipedia",
+  "entities": [
+    {
+      "qid": "Q689141",
+      "key": "spotify",
+      "channel": "streaming_dsp",
+      "accepted": true,
+      "description": "spotify swedish audio streaming service",
+      "titles": {
+        "KR": "스포티파이",
+        "JP": "Spotify",
+        "ID": "Spotify",
+        "VN": "Spotify",
+        "TH": "สปอติฟาย",
+        "CN": "Spotify",
+        "HK": "Spotify"
+      }
+    },
+    {
+      "qid": "Q20056642",
+      "key": "apple_music",
+      "channel": "streaming_dsp",
+      "accepted": true,
+      "description": "apple music internet online music service by apple",
+      "titles": {
+        "KR": "애플 뮤직",
+        "JP": "Apple Music",
+        "ID": "Apple Music",
+        "VN": "Apple Music",
+        "TH": "แอปเปิลมิวสิก",
+        "CN": "Apple Music",
+        "HK": "Apple Music"
+      }
+    },
+    {
+      "qid": "Q28404534",
+      "key": "youtube_music",
+      "channel": "streaming_dsp",
+      "accepted": true,
+      "description": "youtube music music streaming website",
+      "titles": {
+        "KR": "유튜브 뮤직",
+        "JP": "YouTube Music",
+        "ID": "YouTube Music",
+        "VN": "YouTube Music",
+        "TH": "ยูทูบมิวสิก",
+        "CN": "YouTube Music",
+        "HK": null
+      }
+    },
+    {
+      "qid": "Q4740860",
+      "key": "amazon_music",
+      "channel": "streaming_dsp",
+      "accepted": true,
+      "description": "amazon music online music service",
+      "titles": {
+        "KR": "아마존 뮤직",
+        "JP": "Amazon Music",
+        "ID": null,
+        "VN": "Amazon Music",
+        "TH": null,
+        "CN": "亚马逊音乐",
+        "HK": null
+      }
+    },
+    {
+      "qid": "Q12595115",
+      "key": "melon",
+      "channel": "streaming_dsp",
+      "accepted": true,
+      "description": "melon south korean online music service",
+      "titles": {
+        "KR": "멜론 (온라인 음악 서비스)",
+        "JP": "Melon (音楽サービス)",
+        "ID": "Melon (layanan musik daring)",
+        "VN": "Melon (dịch vụ âm nhạc trực tuyến)",
+        "TH": null,
+        "CN": "Melon",
+        "HK": null
+      }
+    },
+    {
+      "qid": "Q20856958",
+      "key": "line_music",
+      "channel": "streaming_dsp",
+      "accepted": true,
+      "description": "line music japanese music streaming service",
+      "titles": {
+        "KR": "라인 뮤직",
+        "JP": "LINE MUSIC",
+        "ID": null,
+        "VN": "Line Music",
+        "TH": null,
+        "CN": "LINE MUSIC",
+        "HK": null
+      }
+    },
+    {
+      "qid": "Q28187024",
+      "key": "joox",
+      "channel": "streaming_dsp",
+      "accepted": true,
+      "description": "joox music streaming service developed by tencent",
+      "titles": {
+        "KR": null,
+        "JP": "JOOX",
+        "ID": "Joox",
+        "VN": null,
+        "TH": "จูกซ์",
+        "CN": "Joox",
+        "HK": "Joox"
+      }
+    },
+    {
+      "qid": "Q10852229",
+      "key": "qq_music",
+      "channel": "streaming_dsp",
+      "accepted": true,
+      "description": "qq music tencent music-operated chinese music streaming service",
+      "titles": {
+        "KR": "QQ 음악",
+        "JP": "QQ音楽",
+        "ID": "QQ Music",
+        "VN": "QQ Music",
+        "TH": null,
+        "CN": "QQ音乐",
+        "HK": "QQ音樂"
+      }
+    },
+    {
+      "qid": "Q20063955",
+      "key": "netease_cloud_music",
+      "channel": "streaming_dsp",
+      "accepted": true,
+      "description": "netease cloud music chinese music and video streaming service developed and operated by netease",
+      "titles": {
+        "KR": "넷이즈 클라우드 뮤직",
+        "JP": "網易雲音楽",
+        "ID": null,
+        "VN": "NetEase Cloud Music",
+        "TH": null,
+        "CN": "网易云音乐",
+        "HK": "網易雲音樂"
+      }
+    },
+    {
+      "qid": "Q10851252",
+      "key": "kkbox",
+      "channel": "streaming_dsp",
+      "accepted": true,
+      "description": "kkbox music streaming service",
+      "titles": {
+        "KR": "KKBOX",
+        "JP": "KKBOX",
+        "ID": null,
+        "VN": null,
+        "TH": "เคเคบ็อกซ์",
+        "CN": "KKBOX",
+        "HK": "KKBOX"
+      }
+    },
+    {
+      "qid": "Q48938223",
+      "key": "tiktok",
+      "channel": "short_video",
+      "accepted": true,
+      "description": "tiktok video-focused social media platform",
+      "titles": {
+        "KR": "틱톡",
+        "JP": "TikTok",
+        "ID": "TikTok",
+        "VN": "TikTok",
+        "TH": "ติ๊กต๊อก",
+        "CN": "TikTok",
+        "HK": "抖音"
+      }
+    },
+    {
+      "qid": "Q866",
+      "key": "youtube",
+      "channel": "short_video",
+      "accepted": true,
+      "description": "youtube american video-sharing platform owned by alphabet inc.",
+      "titles": {
+        "KR": "유튜브",
+        "JP": "YouTube",
+        "ID": "YouTube",
+        "VN": "YouTube",
+        "TH": "ยูทูบ",
+        "CN": "YouTube",
+        "HK": "YouTube"
+      }
+    },
+    {
+      "qid": "Q209330",
+      "key": "instagram",
+      "channel": "social_influencer",
+      "accepted": true,
+      "description": "instagram photo and video sharing social network owned by meta platforms",
+      "titles": {
+        "KR": "인스타그램",
+        "JP": "Instagram",
+        "ID": "Instagram",
+        "VN": "Instagram",
+        "TH": "อินสตาแกรม",
+        "CN": "Instagram",
+        "HK": "Instagram"
+      }
+    }
+  ],
+  "series_ok": 75,
+  "series_rows": 91,
+  "ok": true,
+  "series": [
+    {
+      "market": "KR",
+      "entity": "spotify",
+      "qid": "Q689141",
+      "channel": "streaming_dsp",
+      "project": "ko.wikipedia",
+      "title": "스포티파이",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ko.wikipedia/all-access/user/%EC%8A%A4%ED%8F%AC%ED%8B%B0%ED%8C%8C%EC%9D%B4/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 2911
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 5309
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 2930
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 4105
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 5045
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 3460
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 2843
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 2734
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 2400
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 2809
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 3908
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 3450
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 2626
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 1420
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 2618
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 1972
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 1747
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 2455
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 1576
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1319
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 934
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 1151
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 928
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 32
+        }
+      ]
+    },
+    {
+      "market": "JP",
+      "entity": "spotify",
+      "qid": "Q689141",
+      "channel": "streaming_dsp",
+      "project": "ja.wikipedia",
+      "title": "Spotify",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user/Spotify/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 9210
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 9589
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 12149
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 10081
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 8726
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 7654
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 7080
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 7690
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 6112
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 4988
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 6092
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 10210
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 7941
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 7156
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 8650
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 6003
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 5772
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 5645
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 6287
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 8707
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 6478
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 5133
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 5035
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 153
+        }
+      ]
+    },
+    {
+      "market": "ID",
+      "entity": "spotify",
+      "qid": "Q689141",
+      "channel": "streaming_dsp",
+      "project": "id.wikipedia",
+      "title": "Spotify",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/id.wikipedia/all-access/user/Spotify/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 1754
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 1951
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 2519
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 1893
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 2115
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 2521
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 1974
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 2491
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 1795
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 1545
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 1929
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 1560
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 1615
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 1906
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 1458
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 1274
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 923
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 1112
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 1219
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1577
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 1036
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 897
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 793
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 39
+        }
+      ]
+    },
+    {
+      "market": "VN",
+      "entity": "spotify",
+      "qid": "Q689141",
+      "channel": "streaming_dsp",
+      "project": "vi.wikipedia",
+      "title": "Spotify",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/vi.wikipedia/all-access/user/Spotify/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 984
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 1030
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 1296
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 858
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 893
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 929
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 819
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 779
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 623
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 615
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 768
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 781
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 812
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 834
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 1130
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 688
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 684
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 1046
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 867
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1051
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 1139
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 818
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 622
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 29
+        }
+      ]
+    },
+    {
+      "market": "TH",
+      "entity": "spotify",
+      "qid": "Q689141",
+      "channel": "streaming_dsp",
+      "project": "th.wikipedia",
+      "title": "สปอติฟาย",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/th.wikipedia/all-access/user/%E0%B8%AA%E0%B8%9B%E0%B8%AD%E0%B8%95%E0%B8%B4%E0%B8%9F%E0%B8%B2%E0%B8%A2/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 602
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 706
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 563
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 396
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 356
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 599
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 269
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 295
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 257
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 218
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 294
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 265
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 207
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 190
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 210
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 180
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 207
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 100
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 109
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 174
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 147
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 147
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 133
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "market": "CN",
+      "entity": "spotify",
+      "qid": "Q689141",
+      "channel": "streaming_dsp",
+      "project": "zh.wikipedia",
+      "title": "Spotify",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh.wikipedia/all-access/user/Spotify/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 11031
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 7888
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 9462
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 7738
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 6753
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 6445
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 7824
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 6628
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 5123
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 5440
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 6703
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 6017
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 5928
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 5503
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 5513
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 4346
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 4099
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 4446
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 4903
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 5491
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 4112
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 4224
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 4148
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 105
+        }
+      ]
+    },
+    {
+      "market": "HK",
+      "entity": "spotify",
+      "qid": "Q689141",
+      "channel": "streaming_dsp",
+      "project": "zh-yue.wikipedia",
+      "title": "Spotify",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh-yue.wikipedia/all-access/user/Spotify/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 31
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 18
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 29
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 32
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 115
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 30
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 44
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 38
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 31
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 31
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 27
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 40
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 74
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 460
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 131
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 31
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 29
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 61
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 26
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 45
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 37
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 54
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 36
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 2
+        }
+      ]
+    },
+    {
+      "market": "KR",
+      "entity": "apple_music",
+      "qid": "Q20056642",
+      "channel": "streaming_dsp",
+      "project": "ko.wikipedia",
+      "title": "애플 뮤직",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ko.wikipedia/all-access/user/%EC%95%A0%ED%94%8C_%EB%AE%A4%EC%A7%81/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 209
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 246
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 277
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 256
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 314
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 199
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 131
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 128
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 131
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 144
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 275
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 346
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 295
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 245
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 324
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 361
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 261
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 331
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 257
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 264
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 184
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 186
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 273
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 15
+        }
+      ]
+    },
+    {
+      "market": "JP",
+      "entity": "apple_music",
+      "qid": "Q20056642",
+      "channel": "streaming_dsp",
+      "project": "ja.wikipedia",
+      "title": "Apple Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user/Apple_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 1653
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 1459
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 1794
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 1891
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 1690
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 1721
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 1770
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 2001
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 1782
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 1776
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 1639
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 2129
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 1826
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 1655
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 1683
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 1493
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 1407
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 1516
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 1509
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1698
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 1440
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 1617
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 1445
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 67
+        }
+      ]
+    },
+    {
+      "market": "ID",
+      "entity": "apple_music",
+      "qid": "Q20056642",
+      "channel": "streaming_dsp",
+      "project": "id.wikipedia",
+      "title": "Apple Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/id.wikipedia/all-access/user/Apple_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 65
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 93
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 159
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 149
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 122
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 119
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 82
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 108
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 115
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 108
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 111
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 146
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 120
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 149
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 165
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 128
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 116
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 226
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 163
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 142
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 105
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 86
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 147
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "market": "VN",
+      "entity": "apple_music",
+      "qid": "Q20056642",
+      "channel": "streaming_dsp",
+      "project": "vi.wikipedia",
+      "title": "Apple Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/vi.wikipedia/all-access/user/Apple_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 96
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 70
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 85
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 92
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 85
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 119
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 139
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 150
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 96
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 147
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 95
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 93
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 195
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 104
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 118
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 87
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 77
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 400
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 379
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 159
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 142
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 109
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 125
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 4
+        }
+      ]
+    },
+    {
+      "market": "TH",
+      "entity": "apple_music",
+      "qid": "Q20056642",
+      "channel": "streaming_dsp",
+      "project": "th.wikipedia",
+      "title": "แอปเปิลมิวสิก",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/th.wikipedia/all-access/user/%E0%B9%81%E0%B8%AD%E0%B8%9B%E0%B9%80%E0%B8%9B%E0%B8%B4%E0%B8%A5%E0%B8%A1%E0%B8%B4%E0%B8%A7%E0%B8%AA%E0%B8%B4%E0%B8%81/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 43
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 41
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 84
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 80
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 58
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 43
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 58
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 43
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 56
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 58
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 52
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 46
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 48
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 44
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 41
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 50
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 44
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 26
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 43
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 39
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 56
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 147
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 43
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 2
+        }
+      ]
+    },
+    {
+      "market": "CN",
+      "entity": "apple_music",
+      "qid": "Q20056642",
+      "channel": "streaming_dsp",
+      "project": "zh.wikipedia",
+      "title": "Apple Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh.wikipedia/all-access/user/Apple_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 964
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 844
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 1015
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 793
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 828
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 876
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 907
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 706
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 612
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 703
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 895
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 716
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 649
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 679
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 465
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 376
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 452
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 589
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 871
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1249
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 718
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 562
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 629
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 14
+        }
+      ]
+    },
+    {
+      "market": "HK",
+      "entity": "apple_music",
+      "qid": "Q20056642",
+      "channel": "streaming_dsp",
+      "project": "zh-yue.wikipedia",
+      "title": "Apple Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh-yue.wikipedia/all-access/user/Apple_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 4
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 1
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 2
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 16
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 16
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 22
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 9
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 17
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 14
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 27
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 13
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 15
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 12
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 17
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 14
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 10
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 10
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 16
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 12
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 11
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 13
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 19
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 9
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "market": "KR",
+      "entity": "youtube_music",
+      "qid": "Q28404534",
+      "channel": "streaming_dsp",
+      "project": "ko.wikipedia",
+      "title": "유튜브 뮤직",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ko.wikipedia/all-access/user/%EC%9C%A0%ED%8A%9C%EB%B8%8C_%EB%AE%A4%EC%A7%81/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 722
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 710
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 679
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 600
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 828
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 893
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 667
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 778
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 686
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 560
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 880
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 991
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 902
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 1475
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 1770
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 1298
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 1249
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 1236
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 1442
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1590
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 1609
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 1293
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 1498
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 33
+        }
+      ]
+    },
+    {
+      "market": "JP",
+      "entity": "youtube_music",
+      "qid": "Q28404534",
+      "channel": "streaming_dsp",
+      "project": "ja.wikipedia",
+      "title": "YouTube Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user/YouTube_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 2240
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 3408
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 3501
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 3260
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 3437
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 3650
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 2973
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 3675
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 3045
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 3165
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 3012
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 2316
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 2126
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 2330
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 2358
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 2230
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 2152
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 2341
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 4268
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 4374
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 4101
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 3713
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 2219
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 65
+        }
+      ]
+    },
+    {
+      "market": "ID",
+      "entity": "youtube_music",
+      "qid": "Q28404534",
+      "channel": "streaming_dsp",
+      "project": "id.wikipedia",
+      "title": "YouTube Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/id.wikipedia/all-access/user/YouTube_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 2827
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 3108
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 4496
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 5801
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 5086
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 610
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 230
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 284
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 266
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 585
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 565
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 536
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 978
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 973
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 718
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 543
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 349
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 488
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 1551
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1520
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 1389
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 1224
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 319
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 3
+        }
+      ]
+    },
+    {
+      "market": "VN",
+      "entity": "youtube_music",
+      "qid": "Q28404534",
+      "channel": "streaming_dsp",
+      "project": "vi.wikipedia",
+      "title": "YouTube Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/vi.wikipedia/all-access/user/YouTube_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 531
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 865
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 1036
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 703
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 699
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 178
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 176
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 173
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 117
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 310
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 228
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 149
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 283
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 211
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 224
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 313
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 463
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 449
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 608
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 618
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 419
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 351
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 189
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 11
+        }
+      ]
+    },
+    {
+      "market": "TH",
+      "entity": "youtube_music",
+      "qid": "Q28404534",
+      "channel": "streaming_dsp",
+      "project": "th.wikipedia",
+      "title": "ยูทูบมิวสิก",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/th.wikipedia/all-access/user/%E0%B8%A2%E0%B8%B9%E0%B8%97%E0%B8%B9%E0%B8%9A%E0%B8%A1%E0%B8%B4%E0%B8%A7%E0%B8%AA%E0%B8%B4%E0%B8%81/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 101
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 78
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 137
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 103
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 136
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 88
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 73
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 67
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 81
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 110
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 56
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 84
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 55
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 53
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 75
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 55
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 57
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 61
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 37
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 36
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 53
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 67
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 52
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 7
+        }
+      ]
+    },
+    {
+      "market": "CN",
+      "entity": "youtube_music",
+      "qid": "Q28404534",
+      "channel": "streaming_dsp",
+      "project": "zh.wikipedia",
+      "title": "YouTube Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh.wikipedia/all-access/user/YouTube_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 1705
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 1462
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 1751
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 1399
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 1860
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 1099
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 1017
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 977
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 616
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 839
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 1053
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 789
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 890
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 875
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 784
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 699
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 652
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 836
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 1552
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1855
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 1560
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 1212
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 701
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 27
+        }
+      ]
+    },
+    {
+      "market": "HK",
+      "entity": "youtube_music",
+      "qid": "Q28404534",
+      "channel": "streaming_dsp",
+      "project": "zh-yue.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "KR",
+      "entity": "amazon_music",
+      "qid": "Q4740860",
+      "channel": "streaming_dsp",
+      "project": "ko.wikipedia",
+      "title": "아마존 뮤직",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ko.wikipedia/all-access/user/%EC%95%84%EB%A7%88%EC%A1%B4_%EB%AE%A4%EC%A7%81/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 309
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 253
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 235
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 110
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 110
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 168
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 130
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 130
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 222
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 193
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 166
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 79
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 73
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 93
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 48
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 100
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 40
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 60
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 34
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 45
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 27
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 47
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 65
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 2
+        }
+      ]
+    },
+    {
+      "market": "JP",
+      "entity": "amazon_music",
+      "qid": "Q4740860",
+      "channel": "streaming_dsp",
+      "project": "ja.wikipedia",
+      "title": "Amazon Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user/Amazon_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 1240
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 1369
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 1542
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 1344
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 1103
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 949
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 885
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 861
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 695
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 708
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 642
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 759
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 772
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 756
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 656
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 716
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 675
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 652
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 662
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 761
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 625
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 636
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 646
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 17
+        }
+      ]
+    },
+    {
+      "market": "ID",
+      "entity": "amazon_music",
+      "qid": "Q4740860",
+      "channel": "streaming_dsp",
+      "project": "id.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "VN",
+      "entity": "amazon_music",
+      "qid": "Q4740860",
+      "channel": "streaming_dsp",
+      "project": "vi.wikipedia",
+      "title": "Amazon Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/vi.wikipedia/all-access/user/Amazon_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024120100",
+          "views": 0
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 68
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 44
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 16
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 9
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 12
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 31
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 10
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 52
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 41
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 53
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 4
+        }
+      ]
+    },
+    {
+      "market": "TH",
+      "entity": "amazon_music",
+      "qid": "Q4740860",
+      "channel": "streaming_dsp",
+      "project": "th.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "CN",
+      "entity": "amazon_music",
+      "qid": "Q4740860",
+      "channel": "streaming_dsp",
+      "project": "zh.wikipedia",
+      "title": "亚马逊音乐",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh.wikipedia/all-access/user/%E4%BA%9A%E9%A9%AC%E9%80%8A%E9%9F%B3%E4%B9%90/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 224
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 278
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 241
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 181
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 254
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 377
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 218
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 187
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 159
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 135
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 154
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 182
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 154
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 153
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 137
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 114
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 67
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 68
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 167
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 229
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 149
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 106
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 115
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 3
+        }
+      ]
+    },
+    {
+      "market": "HK",
+      "entity": "amazon_music",
+      "qid": "Q4740860",
+      "channel": "streaming_dsp",
+      "project": "zh-yue.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "KR",
+      "entity": "melon",
+      "qid": "Q12595115",
+      "channel": "streaming_dsp",
+      "project": "ko.wikipedia",
+      "title": "멜론 (온라인 음악 서비스)",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ko.wikipedia/all-access/user/%EB%A9%9C%EB%A1%A0_%28%EC%98%A8%EB%9D%BC%EC%9D%B8_%EC%9D%8C%EC%95%85_%EC%84%9C%EB%B9%84%EC%8A%A4%29/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 381
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 868
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 745
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 889
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 677
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 707
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 286
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 309
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 227
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 289
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 334
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 501
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 850
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 589
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 504
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 428
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 351
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 495
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 388
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1033
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 349
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 408
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 294
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 13
+        }
+      ]
+    },
+    {
+      "market": "JP",
+      "entity": "melon",
+      "qid": "Q12595115",
+      "channel": "streaming_dsp",
+      "project": "ja.wikipedia",
+      "title": "Melon (音楽サービス)",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user/Melon_%28%E9%9F%B3%E6%A5%BD%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9%29/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 49
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 68
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 69
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 131
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 237
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 159
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 117
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 205
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 162
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 131
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 146
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 189
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 246
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 225
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 243
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 182
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 131
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 128
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 171
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 132
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 115
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 159
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 189
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 5
+        }
+      ]
+    },
+    {
+      "market": "ID",
+      "entity": "melon",
+      "qid": "Q12595115",
+      "channel": "streaming_dsp",
+      "project": "id.wikipedia",
+      "title": "Melon (layanan musik daring)",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/id.wikipedia/all-access/user/Melon_%28layanan_musik_daring%29/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 56
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 59
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 84
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 55
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 85
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 81
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 75
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 99
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 73
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 79
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 65
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 73
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 81
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 100
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 105
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 74
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 61
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 63
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 54
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 88
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 52
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 62
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 52
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 1
+        }
+      ]
+    },
+    {
+      "market": "VN",
+      "entity": "melon",
+      "qid": "Q12595115",
+      "channel": "streaming_dsp",
+      "project": "vi.wikipedia",
+      "title": "Melon (dịch vụ âm nhạc trực tuyến)",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/vi.wikipedia/all-access/user/Melon_%28d%E1%BB%8Bch_v%E1%BB%A5_%C3%A2m_nh%E1%BA%A1c_tr%E1%BB%B1c_tuy%E1%BA%BFn%29/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 92
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 142
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 79
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 69
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 139
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 109
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 67
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 91
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 54
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 87
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 52
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 62
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 45
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 66
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 71
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 42
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 37
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 68
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 77
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 95
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 54
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 58
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 213
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 10
+        }
+      ]
+    },
+    {
+      "market": "TH",
+      "entity": "melon",
+      "qid": "Q12595115",
+      "channel": "streaming_dsp",
+      "project": "th.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "CN",
+      "entity": "melon",
+      "qid": "Q12595115",
+      "channel": "streaming_dsp",
+      "project": "zh.wikipedia",
+      "title": "Melon",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh.wikipedia/all-access/user/Melon/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 1539
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 1682
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 1483
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 1505
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 925
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 851
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 713
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 862
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 696
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 665
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 616
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 526
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 856
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 3177
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 1046
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 576
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 410
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 477
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 707
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 899
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 633
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 490
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 461
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 9
+        }
+      ]
+    },
+    {
+      "market": "HK",
+      "entity": "melon",
+      "qid": "Q12595115",
+      "channel": "streaming_dsp",
+      "project": "zh-yue.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "KR",
+      "entity": "line_music",
+      "qid": "Q20856958",
+      "channel": "streaming_dsp",
+      "project": "ko.wikipedia",
+      "title": "라인 뮤직",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ko.wikipedia/all-access/user/%EB%9D%BC%EC%9D%B8_%EB%AE%A4%EC%A7%81/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 32
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 34
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 17
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 30
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 23
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 10
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 28
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 29
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 27
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 12
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 57
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 26
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 15
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 19
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 15
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 12
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 11
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 7
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 9
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 12
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 17
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 21
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 35
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 1
+        }
+      ]
+    },
+    {
+      "market": "JP",
+      "entity": "line_music",
+      "qid": "Q20856958",
+      "channel": "streaming_dsp",
+      "project": "ja.wikipedia",
+      "title": "LINE MUSIC",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user/LINE_MUSIC/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 545
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 550
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 704
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 737
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 575
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 560
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 509
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 523
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 535
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 631
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 449
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 404
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 404
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 385
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 443
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 429
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 374
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 414
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 318
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 406
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 401
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 353
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 436
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 11
+        }
+      ]
+    },
+    {
+      "market": "ID",
+      "entity": "line_music",
+      "qid": "Q20856958",
+      "channel": "streaming_dsp",
+      "project": "id.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "VN",
+      "entity": "line_music",
+      "qid": "Q20856958",
+      "channel": "streaming_dsp",
+      "project": "vi.wikipedia",
+      "title": "Line Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/vi.wikipedia/all-access/user/Line_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 13
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 11
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 18
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 29
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 13
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 23
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 9
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 12
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 24
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 15
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 11
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 14
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 2
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 7
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 7
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 13
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 8
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 9
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 12
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 9
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 8
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 12
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 15
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "market": "TH",
+      "entity": "line_music",
+      "qid": "Q20856958",
+      "channel": "streaming_dsp",
+      "project": "th.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "CN",
+      "entity": "line_music",
+      "qid": "Q20856958",
+      "channel": "streaming_dsp",
+      "project": "zh.wikipedia",
+      "title": "LINE MUSIC",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh.wikipedia/all-access/user/LINE_MUSIC/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 269
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 159
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 152
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 181
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 196
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 208
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 155
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 163
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 76
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 140
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 175
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 146
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 185
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 145
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 139
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 114
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 72
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 101
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 225
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 261
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 176
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 333
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 117
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 3
+        }
+      ]
+    },
+    {
+      "market": "HK",
+      "entity": "line_music",
+      "qid": "Q20856958",
+      "channel": "streaming_dsp",
+      "project": "zh-yue.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "KR",
+      "entity": "joox",
+      "qid": "Q28187024",
+      "channel": "streaming_dsp",
+      "project": "ko.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "JP",
+      "entity": "joox",
+      "qid": "Q28187024",
+      "channel": "streaming_dsp",
+      "project": "ja.wikipedia",
+      "title": "JOOX",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user/JOOX/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 0
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 1
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 3
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 4
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 6
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 2
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 0
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 12
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 2
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 3
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 5
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 1
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 2
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 4
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 1
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 6
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 1
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 5
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 2
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 3
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 2
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 163
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 3
+        }
+      ]
+    },
+    {
+      "market": "ID",
+      "entity": "joox",
+      "qid": "Q28187024",
+      "channel": "streaming_dsp",
+      "project": "id.wikipedia",
+      "title": "Joox",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/id.wikipedia/all-access/user/Joox/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 246
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 230
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 341
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 262
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 246
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 218
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 210
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 269
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 205
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 225
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 339
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 296
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 265
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 230
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 202
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 187
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 172
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 151
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 134
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 161
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 101
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 114
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 94
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 1
+        }
+      ]
+    },
+    {
+      "market": "VN",
+      "entity": "joox",
+      "qid": "Q28187024",
+      "channel": "streaming_dsp",
+      "project": "vi.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "TH",
+      "entity": "joox",
+      "qid": "Q28187024",
+      "channel": "streaming_dsp",
+      "project": "th.wikipedia",
+      "title": "จูกซ์",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/th.wikipedia/all-access/user/%E0%B8%88%E0%B8%B9%E0%B8%81%E0%B8%8B%E0%B9%8C/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 135
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 171
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 186
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 140
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 147
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 164
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 130
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 111
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 114
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 131
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 126
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 127
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 109
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 98
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 100
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 101
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 87
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 66
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 75
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 79
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 71
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 63
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 65
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 3
+        }
+      ]
+    },
+    {
+      "market": "CN",
+      "entity": "joox",
+      "qid": "Q28187024",
+      "channel": "streaming_dsp",
+      "project": "zh.wikipedia",
+      "title": "Joox",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh.wikipedia/all-access/user/Joox/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 543
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 557
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 499
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 492
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 505
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 528
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 592
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 578
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 432
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 459
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 689
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 529
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 652
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 918
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 593
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 469
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 291
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 359
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 658
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 737
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 412
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 394
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 379
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 17
+        }
+      ]
+    },
+    {
+      "market": "HK",
+      "entity": "joox",
+      "qid": "Q28187024",
+      "channel": "streaming_dsp",
+      "project": "zh-yue.wikipedia",
+      "title": "Joox",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh-yue.wikipedia/all-access/user/Joox/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 11
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 15
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 26
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 14
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 22
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 26
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 20
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 41
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 48
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 35
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 31
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 31
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 36
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 55
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 23
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 23
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 27
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 52
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 18
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 16
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 30
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 43
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 24
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "market": "KR",
+      "entity": "qq_music",
+      "qid": "Q10852229",
+      "channel": "streaming_dsp",
+      "project": "ko.wikipedia",
+      "title": "QQ 음악",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ko.wikipedia/all-access/user/QQ_%EC%9D%8C%EC%95%85/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 44
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 71
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 62
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 63
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 45
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 60
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 64
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 56
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 64
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 101
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 74
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 68
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 62
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 51
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 58
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 49
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 42
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 107
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 48
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 141
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 96
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 96
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 69
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "market": "JP",
+      "entity": "qq_music",
+      "qid": "Q10852229",
+      "channel": "streaming_dsp",
+      "project": "ja.wikipedia",
+      "title": "QQ音楽",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user/QQ%E9%9F%B3%E6%A5%BD/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 177
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 267
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 251
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 238
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 192
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 210
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 218
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 202
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 188
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 191
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 166
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 198
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 173
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 190
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 182
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 177
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 140
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 131
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 146
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 151
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 116
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 102
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 124
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 1
+        }
+      ]
+    },
+    {
+      "market": "ID",
+      "entity": "qq_music",
+      "qid": "Q10852229",
+      "channel": "streaming_dsp",
+      "project": "id.wikipedia",
+      "title": "QQ Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/id.wikipedia/all-access/user/QQ_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 59
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 69
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 71
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 89
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 74
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 114
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 133
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 311
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 224
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 132
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 178
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 131
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 170
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 151
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 137
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 152
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 139
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 180
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 161
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 262
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 252
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 245
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 259
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 2
+        }
+      ]
+    },
+    {
+      "market": "VN",
+      "entity": "qq_music",
+      "qid": "Q10852229",
+      "channel": "streaming_dsp",
+      "project": "vi.wikipedia",
+      "title": "QQ Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/vi.wikipedia/all-access/user/QQ_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 695
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 640
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 634
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 725
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 750
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 824
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 846
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 1263
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 1440
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 1472
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 1507
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 1380
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 1396
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 1280
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 1378
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 1193
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 1246
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 1279
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 1326
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1378
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 1313
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 1300
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 1297
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 41
+        }
+      ]
+    },
+    {
+      "market": "TH",
+      "entity": "qq_music",
+      "qid": "Q10852229",
+      "channel": "streaming_dsp",
+      "project": "th.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "CN",
+      "entity": "qq_music",
+      "qid": "Q10852229",
+      "channel": "streaming_dsp",
+      "project": "zh.wikipedia",
+      "title": "QQ音乐",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh.wikipedia/all-access/user/QQ%E9%9F%B3%E4%B9%90/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 1074
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 1087
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 1471
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 1262
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 1161
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 1408
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 1078
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 1082
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 719
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 828
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 1066
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 859
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 729
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 784
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 852
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 783
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 649
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 850
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 755
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1032
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 832
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 1021
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 793
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 25
+        }
+      ]
+    },
+    {
+      "market": "HK",
+      "entity": "qq_music",
+      "qid": "Q10852229",
+      "channel": "streaming_dsp",
+      "project": "zh-yue.wikipedia",
+      "title": "QQ音樂",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh-yue.wikipedia/all-access/user/QQ%E9%9F%B3%E6%A8%82/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 5
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 11
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 13
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 11
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 12
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 12
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 15
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 14
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 16
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 18
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 9
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 14
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 8
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 19
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 14
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 18
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 9
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 9
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 8
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 14
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 18
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 4
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 13
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "market": "KR",
+      "entity": "netease_cloud_music",
+      "qid": "Q20063955",
+      "channel": "streaming_dsp",
+      "project": "ko.wikipedia",
+      "title": "넷이즈 클라우드 뮤직",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ko.wikipedia/all-access/user/%EB%84%B7%EC%9D%B4%EC%A6%88_%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C_%EB%AE%A4%EC%A7%81/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2026050100",
+          "views": 14
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 23
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 23
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 29
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "market": "JP",
+      "entity": "netease_cloud_music",
+      "qid": "Q20063955",
+      "channel": "streaming_dsp",
+      "project": "ja.wikipedia",
+      "title": "網易雲音楽",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user/%E7%B6%B2%E6%98%93%E9%9B%B2%E9%9F%B3%E6%A5%BD/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 255
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 167
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 179
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 208
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 166
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 243
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 180
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 203
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 166
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 203
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 212
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 169
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 130
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 193
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 169
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 142
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 149
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 121
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 165
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 188
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 252
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 234
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 324
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 18
+        }
+      ]
+    },
+    {
+      "market": "ID",
+      "entity": "netease_cloud_music",
+      "qid": "Q20063955",
+      "channel": "streaming_dsp",
+      "project": "id.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "VN",
+      "entity": "netease_cloud_music",
+      "qid": "Q20063955",
+      "channel": "streaming_dsp",
+      "project": "vi.wikipedia",
+      "title": "NetEase Cloud Music",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/vi.wikipedia/all-access/user/NetEase_Cloud_Music/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2025060100",
+          "views": 28
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 76
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 92
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 64
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 72
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 45
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 75
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 35
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 40
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 38
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 34
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 43
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 45
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 46
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 45
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 1
+        }
+      ]
+    },
+    {
+      "market": "TH",
+      "entity": "netease_cloud_music",
+      "qid": "Q20063955",
+      "channel": "streaming_dsp",
+      "project": "th.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "CN",
+      "entity": "netease_cloud_music",
+      "qid": "Q20063955",
+      "channel": "streaming_dsp",
+      "project": "zh.wikipedia",
+      "title": "网易云音乐",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh.wikipedia/all-access/user/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 1530
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 1591
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 1523
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 1380
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 1255
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 1392
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 1374
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 1624
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 1404
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 1194
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 1330
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 1065
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 1007
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 1426
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 1670
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 1172
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 761
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 1022
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 1284
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1418
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 1505
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 1818
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 1655
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 63
+        }
+      ]
+    },
+    {
+      "market": "HK",
+      "entity": "netease_cloud_music",
+      "qid": "Q20063955",
+      "channel": "streaming_dsp",
+      "project": "zh-yue.wikipedia",
+      "title": "網易雲音樂",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh-yue.wikipedia/all-access/user/%E7%B6%B2%E6%98%93%E9%9B%B2%E9%9F%B3%E6%A8%82/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2025010100",
+          "views": 1
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 0
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 31
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 7
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 10
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 7
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 1
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 2
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 5
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 4
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 4
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 3
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "market": "KR",
+      "entity": "kkbox",
+      "qid": "Q10851252",
+      "channel": "streaming_dsp",
+      "project": "ko.wikipedia",
+      "title": "KKBOX",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ko.wikipedia/all-access/user/KKBOX/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 46
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 47
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 43
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 62
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 38
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 40
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 49
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 38
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 53
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 41
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 55
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 29
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 39
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 48
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 46
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 38
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 20
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 37
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 44
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 28
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 112
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 40
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 20
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 4
+        }
+      ]
+    },
+    {
+      "market": "JP",
+      "entity": "kkbox",
+      "qid": "Q10851252",
+      "channel": "streaming_dsp",
+      "project": "ja.wikipedia",
+      "title": "KKBOX",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user/KKBOX/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 266
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 271
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 324
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 322
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 335
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 376
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 306
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 354
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 297
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 214
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 236
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 289
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 250
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 268
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 265
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 266
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 239
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 207
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 217
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 261
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 292
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 234
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 249
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 7
+        }
+      ]
+    },
+    {
+      "market": "ID",
+      "entity": "kkbox",
+      "qid": "Q10851252",
+      "channel": "streaming_dsp",
+      "project": "id.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "VN",
+      "entity": "kkbox",
+      "qid": "Q10851252",
+      "channel": "streaming_dsp",
+      "project": "vi.wikipedia",
+      "title": null,
+      "ok": false,
+      "reason": "no_sitelink",
+      "items": []
+    },
+    {
+      "market": "TH",
+      "entity": "kkbox",
+      "qid": "Q10851252",
+      "channel": "streaming_dsp",
+      "project": "th.wikipedia",
+      "title": "เคเคบ็อกซ์",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/th.wikipedia/all-access/user/%E0%B9%80%E0%B8%84%E0%B9%80%E0%B8%84%E0%B8%9A%E0%B9%87%E0%B8%AD%E0%B8%81%E0%B8%8B%E0%B9%8C/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 7
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 7
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 18
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 21
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 8
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 19
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 17
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 12
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 14
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 22
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 12
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 3
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 9
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 18
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 4
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 11
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 3
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 1
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 8
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 5
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 7
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 7
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 4
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "market": "CN",
+      "entity": "kkbox",
+      "qid": "Q10851252",
+      "channel": "streaming_dsp",
+      "project": "zh.wikipedia",
+      "title": "KKBOX",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh.wikipedia/all-access/user/KKBOX/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 2050
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 1869
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 2284
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 1878
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 2074
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 1998
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 2917
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 2196
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 1821
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 1421
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 1491
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 1455
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 1487
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 1768
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 1418
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 1216
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 1009
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 1293
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 2046
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1764
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 2216
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 1182
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 1043
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 33
+        }
+      ]
+    },
+    {
+      "market": "HK",
+      "entity": "kkbox",
+      "qid": "Q10851252",
+      "channel": "streaming_dsp",
+      "project": "zh-yue.wikipedia",
+      "title": "KKBOX",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh-yue.wikipedia/all-access/user/KKBOX/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 6
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 9
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 10
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 32
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 17
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 16
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 11
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 17
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 18
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 38
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 15
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 20
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 18
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 35
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 16
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 22
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 29
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 43
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 14
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 18
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 51
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 18
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 10
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "market": "KR",
+      "entity": "tiktok",
+      "qid": "Q48938223",
+      "channel": "short_video",
+      "project": "ko.wikipedia",
+      "title": "틱톡",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ko.wikipedia/all-access/user/%ED%8B%B1%ED%86%A1/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 2561
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 4507
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 4060
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 7697
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 3205
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 2720
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 1558
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 1612
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 1519
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 1399
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 1841
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 3002
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 1585
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 1746
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 2312
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 2424
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 2018
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 2184
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 2752
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 2517
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 1881
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 1869
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 1562
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 63
+        }
+      ]
+    },
+    {
+      "market": "JP",
+      "entity": "tiktok",
+      "qid": "Q48938223",
+      "channel": "short_video",
+      "project": "ja.wikipedia",
+      "title": "TikTok",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user/TikTok/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 19796
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 18319
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 24819
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 40807
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 19359
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 17421
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 14462
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 16706
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 15771
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 16095
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 17460
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 24150
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 17373
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 18870
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 20664
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 16803
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 15660
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 15073
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 13892
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 19305
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 16637
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 14295
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 16056
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 451
+        }
+      ]
+    },
+    {
+      "market": "ID",
+      "entity": "tiktok",
+      "qid": "Q48938223",
+      "channel": "short_video",
+      "project": "id.wikipedia",
+      "title": "TikTok",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/id.wikipedia/all-access/user/TikTok/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 16649
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 13828
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 18613
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 21829
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 17611
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 13340
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 19026
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 17061
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 19278
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 15478
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 17071
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 16574
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 18062
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 20211
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 12325
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 12894
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 13049
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 28791
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 9995
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 8906
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 8732
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 8428
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 6646
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 198
+        }
+      ]
+    },
+    {
+      "market": "VN",
+      "entity": "tiktok",
+      "qid": "Q48938223",
+      "channel": "short_video",
+      "project": "vi.wikipedia",
+      "title": "TikTok",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/vi.wikipedia/all-access/user/TikTok/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 13071
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 11961
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 16933
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 14804
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 13457
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 13794
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 12562
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 10174
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 9675
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 8476
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 13574
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 11198
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 12938
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 15253
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 10809
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 9261
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 10099
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 12394
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 10098
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 12070
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 12616
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 11306
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 8473
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 342
+        }
+      ]
+    },
+    {
+      "market": "TH",
+      "entity": "tiktok",
+      "qid": "Q48938223",
+      "channel": "short_video",
+      "project": "th.wikipedia",
+      "title": "ติ๊กต๊อก",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/th.wikipedia/all-access/user/%E0%B8%95%E0%B8%B4%E0%B9%8A%E0%B8%81%E0%B8%95%E0%B9%8A%E0%B8%AD%E0%B8%81/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 4
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 4
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 6
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 13
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 9
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 8
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 3
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 15
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 7
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 14
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 8
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 8
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 7
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 10
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 2928
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 4567
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 4284
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 3051
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 3830
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 5099
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 5150
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 6081
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 4259
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 158
+        }
+      ]
+    },
+    {
+      "market": "CN",
+      "entity": "tiktok",
+      "qid": "Q48938223",
+      "channel": "short_video",
+      "project": "zh.wikipedia",
+      "title": "TikTok",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh.wikipedia/all-access/user/TikTok/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 8022
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 9710
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 13484
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 43049
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 10162
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 8810
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 10998
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 7880
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 6652
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 6791
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 8678
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 16404
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 9674
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 10040
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 9202
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 7560
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 5709
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 7088
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 10461
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 11388
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 10080
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 8573
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 6141
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 178
+        }
+      ]
+    },
+    {
+      "market": "HK",
+      "entity": "tiktok",
+      "qid": "Q48938223",
+      "channel": "short_video",
+      "project": "zh-yue.wikipedia",
+      "title": "抖音",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh-yue.wikipedia/all-access/user/%E6%8A%96%E9%9F%B3/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 29
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 59
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 38
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 171
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 106
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 52
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 49
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 64
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 38
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 38
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 37
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 50
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 53
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 33
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 77
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 59
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 44
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 40
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 21
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 42
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 43
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 37
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 28
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 1
+        }
+      ]
+    },
+    {
+      "market": "KR",
+      "entity": "youtube",
+      "qid": "Q866",
+      "channel": "short_video",
+      "project": "ko.wikipedia",
+      "title": "유튜브",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ko.wikipedia/all-access/user/%EC%9C%A0%ED%8A%9C%EB%B8%8C/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 44912
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 51519
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 51132
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 54064
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 56619
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 48912
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 25711
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 21640
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 22297
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 19029
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 23460
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 22753
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 20817
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 21758
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 35133
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 67420
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 74518
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 104400
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 201941
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 125226
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 152997
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 204993
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 55652
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 1065
+        }
+      ]
+    },
+    {
+      "market": "JP",
+      "entity": "youtube",
+      "qid": "Q866",
+      "channel": "short_video",
+      "project": "ja.wikipedia",
+      "title": "YouTube",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user/YouTube/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 55216
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 68228
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 74830
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 80046
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 60215
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 65168
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 64933
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 72932
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 70728
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 76615
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 97021
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 78807
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 73106
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 79658
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 77250
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 94449
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 108859
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 77795
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 78058
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 81329
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 98083
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 97501
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 85529
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 2698
+        }
+      ]
+    },
+    {
+      "market": "ID",
+      "entity": "youtube",
+      "qid": "Q866",
+      "channel": "short_video",
+      "project": "id.wikipedia",
+      "title": "YouTube",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/id.wikipedia/all-access/user/YouTube/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 59316
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 56840
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 66749
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 79145
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 165518
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 126369
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 92851
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 98934
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 137253
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 65679
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 54343
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 54587
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 61977
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 65618
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 73187
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 66167
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 52527
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 26939
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 29102
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 29106
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 25453
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 28491
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 22936
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 661
+        }
+      ]
+    },
+    {
+      "market": "VN",
+      "entity": "youtube",
+      "qid": "Q866",
+      "channel": "short_video",
+      "project": "vi.wikipedia",
+      "title": "YouTube",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/vi.wikipedia/all-access/user/YouTube/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 22588
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 25698
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 28673
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 24091
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 21797
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 27797
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 27617
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 33182
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 23822
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 24202
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 21135
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 21326
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 20046
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 23221
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 27135
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 23665
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 25097
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 26891
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 25380
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 24466
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 26386
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 36113
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 25523
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 613
+        }
+      ]
+    },
+    {
+      "market": "TH",
+      "entity": "youtube",
+      "qid": "Q866",
+      "channel": "short_video",
+      "project": "th.wikipedia",
+      "title": "ยูทูบ",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/th.wikipedia/all-access/user/%E0%B8%A2%E0%B8%B9%E0%B8%97%E0%B8%B9%E0%B8%9A/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 15704
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 16050
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 22807
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 16531
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 15509
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 13140
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 10215
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 8130
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 10265
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 9024
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 6741
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 4607
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 4668
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 7397
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 5463
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 4726
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 3871
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 5510
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 7182
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 8161
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 7619
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 7927
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 8604
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 392
+        }
+      ]
+    },
+    {
+      "market": "CN",
+      "entity": "youtube",
+      "qid": "Q866",
+      "channel": "short_video",
+      "project": "zh.wikipedia",
+      "title": "YouTube",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh.wikipedia/all-access/user/YouTube/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 41368
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 44744
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 45352
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 39326
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 35128
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 38540
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 34110
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 32579
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 30679
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 41233
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 37458
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 31152
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 34124
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 34009
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 33317
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 31925
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 32392
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 33985
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 40539
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 41735
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 44199
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 55117
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 42819
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 1136
+        }
+      ]
+    },
+    {
+      "market": "HK",
+      "entity": "youtube",
+      "qid": "Q866",
+      "channel": "short_video",
+      "project": "zh-yue.wikipedia",
+      "title": "YouTube",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh-yue.wikipedia/all-access/user/YouTube/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 1569
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 1130
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 565
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 589
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 474
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 731
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 586
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 584
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 608
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 440
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 438
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 449
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 614
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 959
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 798
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 741
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 638
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 1053
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 1130
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 4138
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 5571
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 1668
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 660
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 46
+        }
+      ]
+    },
+    {
+      "market": "KR",
+      "entity": "instagram",
+      "qid": "Q209330",
+      "channel": "social_influencer",
+      "project": "ko.wikipedia",
+      "title": "인스타그램",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ko.wikipedia/all-access/user/%EC%9D%B8%EC%8A%A4%ED%83%80%EA%B7%B8%EB%9E%A8/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 70061
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 71914
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 56742
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 63910
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 63576
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 57612
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 47085
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 50890
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 44110
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 43200
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 54224
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 48827
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 49303
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 41124
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 58615
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 64806
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 53199
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 59341
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 48220
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 51610
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 43549
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 38651
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 40899
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 1142
+        }
+      ]
+    },
+    {
+      "market": "JP",
+      "entity": "instagram",
+      "qid": "Q209330",
+      "channel": "social_influencer",
+      "project": "ja.wikipedia",
+      "title": "Instagram",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/ja.wikipedia/all-access/user/Instagram/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 91652
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 84754
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 93325
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 111576
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 90102
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 90869
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 88100
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 94710
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 84491
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 83639
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 96753
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 93061
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 87990
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 92179
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 85918
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 93355
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 95059
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 82312
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 77965
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 87945
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 91956
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 93525
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 92699
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 2705
+        }
+      ]
+    },
+    {
+      "market": "ID",
+      "entity": "instagram",
+      "qid": "Q209330",
+      "channel": "social_influencer",
+      "project": "id.wikipedia",
+      "title": "Instagram",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/id.wikipedia/all-access/user/Instagram/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 15080
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 13731
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 16159
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 17163
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 14045
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 16260
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 13984
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 14896
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 14107
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 13655
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 13886
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 14384
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 15217
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 11074
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 7453
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 7866
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 5298
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 5788
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 8971
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 9015
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 7576
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 7898
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 7225
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 297
+        }
+      ]
+    },
+    {
+      "market": "VN",
+      "entity": "instagram",
+      "qid": "Q209330",
+      "channel": "social_influencer",
+      "project": "vi.wikipedia",
+      "title": "Instagram",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/vi.wikipedia/all-access/user/Instagram/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 5031
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 5971
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 7314
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 4076
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 3582
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 3754
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 2400
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 2593
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 2242
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 2294
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 1985
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 1796
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 2123
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 4219
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 1741
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 1590
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 1367
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 1276
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 1353
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 1521
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 2099
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 1904
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 1848
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 53
+        }
+      ]
+    },
+    {
+      "market": "TH",
+      "entity": "instagram",
+      "qid": "Q209330",
+      "channel": "social_influencer",
+      "project": "th.wikipedia",
+      "title": "อินสตาแกรม",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/th.wikipedia/all-access/user/%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B8%AA%E0%B8%95%E0%B8%B2%E0%B9%81%E0%B8%81%E0%B8%A3%E0%B8%A1/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 5043
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 5430
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 4755
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 4867
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 4389
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 3410
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 3456
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 3756
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 3679
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 3528
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 4465
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 3924
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 3287
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 3161
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 2551
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 2662
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 2922
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 3319
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 3247
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 2723
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 2697
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 2915
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 2627
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 109
+        }
+      ]
+    },
+    {
+      "market": "CN",
+      "entity": "instagram",
+      "qid": "Q209330",
+      "channel": "social_influencer",
+      "project": "zh.wikipedia",
+      "title": "Instagram",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh.wikipedia/all-access/user/Instagram/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 21077
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 20220
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 20979
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 20902
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 18683
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 19243
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 18724
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 16455
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 14509
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 15630
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 15980
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 15249
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 15500
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 17285
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 13886
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 12398
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 10966
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 16228
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 16291
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 18002
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 16885
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 16673
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 16368
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 544
+        }
+      ]
+    },
+    {
+      "market": "HK",
+      "entity": "instagram",
+      "qid": "Q209330",
+      "channel": "social_influencer",
+      "project": "zh-yue.wikipedia",
+      "title": "Instagram",
+      "url": "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/zh-yue.wikipedia/all-access/user/Instagram/monthly/2024100100/2026090100",
+      "ok": true,
+      "items": [
+        {
+          "timestamp": "2024100100",
+          "views": 68
+        },
+        {
+          "timestamp": "2024110100",
+          "views": 82
+        },
+        {
+          "timestamp": "2024120100",
+          "views": 99
+        },
+        {
+          "timestamp": "2025010100",
+          "views": 97
+        },
+        {
+          "timestamp": "2025020100",
+          "views": 131
+        },
+        {
+          "timestamp": "2025030100",
+          "views": 126
+        },
+        {
+          "timestamp": "2025040100",
+          "views": 135
+        },
+        {
+          "timestamp": "2025050100",
+          "views": 118
+        },
+        {
+          "timestamp": "2025060100",
+          "views": 80
+        },
+        {
+          "timestamp": "2025070100",
+          "views": 120
+        },
+        {
+          "timestamp": "2025080100",
+          "views": 100
+        },
+        {
+          "timestamp": "2025090100",
+          "views": 78
+        },
+        {
+          "timestamp": "2025100100",
+          "views": 218
+        },
+        {
+          "timestamp": "2025110100",
+          "views": 2824
+        },
+        {
+          "timestamp": "2025120100",
+          "views": 396
+        },
+        {
+          "timestamp": "2026010100",
+          "views": 149
+        },
+        {
+          "timestamp": "2026020100",
+          "views": 91
+        },
+        {
+          "timestamp": "2026030100",
+          "views": 172
+        },
+        {
+          "timestamp": "2026040100",
+          "views": 197
+        },
+        {
+          "timestamp": "2026050100",
+          "views": 178
+        },
+        {
+          "timestamp": "2026060100",
+          "views": 200
+        },
+        {
+          "timestamp": "2026070100",
+          "views": 121
+        },
+        {
+          "timestamp": "2026080100",
+          "views": 104
+        },
+        {
+          "timestamp": "2026090100",
+          "views": 6
+        }
+      ]
+    }
+  ]
+}

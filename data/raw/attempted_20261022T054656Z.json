@@ -1,0 +1,78 @@
+{
+  "source": "attempted_reports",
+  "pulled_at": "2026-10-22T05:54:11Z",
+  "run_id": "20261022T054656Z",
+  "used_in_model": false,
+  "attempts": [
+    {
+      "source": "ifpi_industry_data",
+      "url": "https://www.ifpi.org/our-industry/industry-data/",
+      "ok": true,
+      "http_status": 200,
+      "used_in_model": false,
+      "territory_rows": [],
+      "global_statements_verbatim": [
+        "In 2024, global recorded music revenues grew by 4.8%.",
+        "accounting for 69.0% of global recorded music revenues",
+        "increasing by 9.5% in 2024",
+        "there were 752 million users of paid subscription accounts globally"
+      ],
+      "territory_names_in_text": [],
+      "html_chars": 62155
+    },
+    {
+      "source": "ifpi_gmr2024_pdf",
+      "url": "https://www.ifpi.org/wp-content/uploads/2024/03/GMR2024_state_of_the_industry.pdf",
+      "ok": false,
+      "error": "HTTP 404: <!DOCTYPE html>\n<html>\n<head>\n\t<title>  Page not found</title>\n\t<meta name='robots' content='max-image-preview:large' />\n<link rel='dns-prefetch' href='//releases.jquery.com' />\n<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />\n\t\t<!-- This site uses the Google Analytics by MonsterInsights pl",
+      "used_in_model": false
+    },
+    {
+      "source": "ifpi_gmr2025_pdf",
+      "url": "https://www.ifpi.org/wp-content/uploads/2025/03/GMR2025_SOTI.pdf",
+      "ok": false,
+      "error": "HTTP 404: <!DOCTYPE html>\n<html>\n<head>\n\t<title>  Page not found</title>\n\t<meta name='robots' content='max-image-preview:large' />\n<link rel='dns-prefetch' href='//releases.jquery.com' />\n<link rel='dns-prefetch' href='//cdnjs.cloudflare.com' />\n\t\t<!-- This site uses the Google Analytics by MonsterInsights pl",
+      "used_in_model": false
+    },
+    {
+      "source": "statista_digital_music",
+      "url": "https://www.statista.com/outlook/amo/media/music-radio-podcasts/digital-music/worldwide/?currency=USD/",
+      "ok": true,
+      "http_status": 200,
+      "used_in_model": false,
+      "territory_rows": [],
+      "bytes": 80000
+    },
+    {
+      "source": "statista_social_cpm",
+      "url": "https://www.statista.com/statistics/273418/unadjusted-monthly-inflation-rate-in-the-us/",
+      "ok": true,
+      "http_status": 200,
+      "used_in_model": false,
+      "territory_rows": [],
+      "bytes": 80000
+    },
+    {
+      "source": "riaj_digital",
+      "url": "https://www.riaj.or.jp/e/data/annual/dg_all.html",
+      "ok": false,
+      "error": "HTTP 503: <!doctype html>\n<html lang=\"ja\">\n  <head>\n    <meta charset=\"utf-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n    <meta name=\"robots\" content=\"noindex, nofollow\" />\n    <title>メンテナンス中です | 一般社団法人日本レコード協会（RIAJ）</titl",
+      "used_in_model": false
+    },
+    {
+      "source": "ascap_royalty_help",
+      "url": "https://www.ascap.com/help/royalties-and-payment/payment/royalties",
+      "ok": false,
+      "error": "HTTP 403: <html>\r\n<head><title>403 Forbidden</title></head>\r\n<body>\r\n<center><h1>403 Forbidden</h1></center>\r\n</body>\r\n</html>\r\n",
+      "used_in_model": false
+    },
+    {
+      "source": "deezer_chart",
+      "url": "https://api.deezer.com/chart/0/tracks?limit=1",
+      "ok": true,
+      "used_in_model": false,
+      "shape": "global_chart",
+      "tracks_returned": 1
+    }
+  ]
+}

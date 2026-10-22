@@ -1,0 +1,28 @@
+{
+  "run_id": "20261022T054656Z",
+  "pulled_at": "2026-10-22T05:54:11Z",
+  "files": {
+    "worldbank": "data/raw/worldbank_20261022T054656Z.json",
+    "frankfurter": "data/raw/frankfurter_20261022T054656Z.json",
+    "apple_charts": "data/raw/apple_charts_20261022T054656Z.json",
+    "attention": "data/raw/attention_20261022T054656Z.json",
+    "attempted": "data/raw/attempted_20261022T054656Z.json"
+  },
+  "status": {
+    "worldbank": "ok",
+    "frankfurter": "partial",
+    "apple_charts": "ok",
+    "attention": "ok",
+    "sync_licensing": "unavailable",
+    "ad_cpm_cpc": "unavailable",
+    "streaming_mau": "unavailable",
+    "ifpi_territory_revenue": "unavailable"
+  },
+  "worldbank_core_counts": {
+    "SP.POP.TOTL": 7,
+    "IT.NET.USER.ZS": 7,
+    "NY.GDP.PCAP.CD": 7
+  },
+  "apple_markets_ok": 7,
+  "attention_series_ok": 75
+}

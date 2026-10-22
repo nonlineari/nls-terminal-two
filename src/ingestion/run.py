@@ -18,6 +18,7 @@ from src.ingestion.apple_charts import fetch_apple_charts
 from src.ingestion.attempted import fetch_attempted
 from src.ingestion.attention import fetch_attention
 from src.ingestion.fx import fetch_fx
+from src.ingestion.failures import reset_failure_log
 from src.ingestion.worldbank import fetch_worldbank
 from src.jsonutil import write_json
 
@@ -53,6 +54,7 @@ def _failures_for(run_id: str) -> list[dict]:
 def main() -> int:
     configure_logging()
     RAW_DIR.mkdir(parents=True, exist_ok=True)
+    reset_failure_log()
     run_id = new_run_id()
     logger.info("ingestion run %s", run_id)
 

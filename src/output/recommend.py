@@ -100,6 +100,16 @@ def run_recommend(budget: float) -> int:
             f"Leave-one-market-out R² is {r2:.3f}. The model does not beat a flat line out of sample. "
             "Treat the split as a low-confidence illustration."
         )
+        if "y_true" in predictions.columns:
+            lines.append(
+                "The proxy formula itself ranks different rows highest. That formula is still not observed ROI:"
+            )
+            top = predictions.sort_values("y_true", ascending=False).head(5)
+            for index, row in enumerate(top.itertuples(index=False), start=1):
+                lines.append(
+                    f"  {index}. {row.market_name} / {row.channel_label}: label {row.y_true:.3f}, "
+                    f"model {row.pred_loocv:.3f}"
+                )
     lines.append("")
     header = f"{'#':>2}  {'Market':<12} {'Channel':<22} {'Proxy':>8} {'Conf':>6} {'Share':>7} {'Amount':>14}"
     lines.append(header)

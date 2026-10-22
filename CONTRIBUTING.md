@@ -12,7 +12,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Run commands from the repository root so `python -m src...` can import the package.
+Run commands from the repository root so `python3 -m src...` can import the package. If `python` on your machine is Python 3, that works too. The shell script picks `python` when it exists and `python3` otherwise.
 
 ```bash
 bash scripts/run_pipeline.sh

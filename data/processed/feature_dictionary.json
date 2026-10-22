@@ -1,0 +1,374 @@
+{
+  "columns": [
+    {
+      "name": "market_code",
+      "role": "id",
+      "description": "ISO-like market code used by this project (KR, JP, ID, VN, TH, CN, HK)."
+    },
+    {
+      "name": "market_name",
+      "role": "id",
+      "description": "Display name. Korea is the Republic of Korea; Hong Kong is separate from mainland China."
+    },
+    {
+      "name": "channel",
+      "role": "id",
+      "description": "streaming_dsp, short_video, or social_influencer."
+    },
+    {
+      "name": "channel_label",
+      "role": "id",
+      "description": "Human-readable channel name."
+    },
+    {
+      "name": "population",
+      "role": "observed",
+      "description": "World Bank SP.POP.TOTL, total population, latest positive year in the pulled history."
+    },
+    {
+      "name": "population_year",
+      "role": "observed",
+      "description": "Year of the population value."
+    },
+    {
+      "name": "gdp_per_capita_usd",
+      "role": "observed",
+      "description": "World Bank NY.GDP.PCAP.CD, GDP per capita, current US dollars."
+    },
+    {
+      "name": "gdp_per_capita_year",
+      "role": "observed",
+      "description": "Year of GDP per capita."
+    },
+    {
+      "name": "gdp_per_capita_ppp_usd",
+      "role": "observed",
+      "description": "World Bank NY.GDP.PCAP.PP.CD, GDP per capita, PPP, current international dollars."
+    },
+    {
+      "name": "gdp_per_capita_ppp_year",
+      "role": "observed",
+      "description": "Year of PPP GDP per capita."
+    },
+    {
+      "name": "gdp_current_usd",
+      "role": "observed",
+      "description": "World Bank NY.GDP.MKTP.CD, GDP, current US dollars."
+    },
+    {
+      "name": "gdp_current_usd_year",
+      "role": "observed",
+      "description": "Year of total GDP."
+    },
+    {
+      "name": "internet_pct",
+      "role": "observed",
+      "description": "World Bank IT.NET.USER.ZS, individuals using the Internet, percent of population."
+    },
+    {
+      "name": "internet_pct_year",
+      "role": "observed",
+      "description": "Year of the internet-user percentage."
+    },
+    {
+      "name": "internet_users",
+      "role": "observed_proxy",
+      "description": "population * internet_pct / 100 on the latest year where both series exist. Not a platform MAU."
+    },
+    {
+      "name": "internet_users_year",
+      "role": "observed",
+      "description": "Year used for internet_users. May differ from population_year when the series do not share a latest year."
+    },
+    {
+      "name": "internet_user_cagr",
+      "role": "observed_proxy",
+      "description": "CAGR of internet_users from the earliest to latest overlapping year, null if the span is under 3 years."
+    },
+    {
+      "name": "internet_user_cagr_start_year",
+      "role": "observed",
+      "description": "Start year of internet_user_cagr."
+    },
+    {
+      "name": "internet_user_cagr_end_year",
+      "role": "observed",
+      "description": "End year of internet_user_cagr."
+    },
+    {
+      "name": "mobile_per_100",
+      "role": "observed",
+      "description": "World Bank IT.CEL.SETS.P2, mobile cellular subscriptions per 100 people."
+    },
+    {
+      "name": "mobile_per_100_year",
+      "role": "observed",
+      "description": "Year of mobile subscriptions."
+    },
+    {
+      "name": "broadband_per_100",
+      "role": "observed",
+      "description": "World Bank IT.NET.BBND.P2, fixed broadband subscriptions per 100 people."
+    },
+    {
+      "name": "broadband_per_100_year",
+      "role": "observed",
+      "description": "Year of fixed broadband."
+    },
+    {
+      "name": "urban_pct",
+      "role": "observed",
+      "description": "World Bank SP.URB.TOTL.IN.ZS, urban population, percent of total."
+    },
+    {
+      "name": "urban_pct_year",
+      "role": "observed",
+      "description": "Year of the urban share."
+    },
+    {
+      "name": "share_age_0_14",
+      "role": "observed",
+      "description": "World Bank SP.POP.0014.TO.ZS, population ages 0-14, percent of total. Not ages 15-24."
+    },
+    {
+      "name": "share_age_0_14_year",
+      "role": "observed",
+      "description": "Year of the 0-14 share."
+    },
+    {
+      "name": "share_age_15_64",
+      "role": "observed",
+      "description": "World Bank SP.POP.1564.TO.ZS, population ages 15-64, percent of total."
+    },
+    {
+      "name": "share_age_15_64_year",
+      "role": "observed",
+      "description": "Year of the working-age share."
+    },
+    {
+      "name": "inflation_pct",
+      "role": "observed",
+      "description": "World Bank FP.CPI.TOTL.ZG, consumer price inflation, annual percent. Can be negative."
+    },
+    {
+      "name": "inflation_pct_year",
+      "role": "observed",
+      "description": "Year of inflation."
+    },
+    {
+      "name": "fx_lcu_per_usd",
+      "role": "observed",
+      "description": "World Bank PA.NUS.FCRF, official exchange rate, local currency units per US dollar, period average."
+    },
+    {
+      "name": "fx_lcu_per_usd_year",
+      "role": "observed",
+      "description": "Year of the World Bank exchange rate."
+    },
+    {
+      "name": "fx_frankfurter_lcu_per_usd",
+      "role": "observed",
+      "description": "Frankfurter (ECB) latest rate, local currency per USD. Null for VND: Frankfurter has no dong series."
+    },
+    {
+      "name": "fx_frankfurter_date",
+      "role": "observed",
+      "description": "Frankfurter observation date. Same date for every market in a pull."
+    },
+    {
+      "name": "secure_servers_per_million",
+      "role": "observed",
+      "description": "World Bank IT.NET.SECR.P6, secure internet servers per million people. Hong Kong is an extreme data-center outlier."
+    },
+    {
+      "name": "secure_servers_per_million_year",
+      "role": "observed",
+      "description": "Year of the secure-server density."
+    },
+    {
+      "name": "apple_chart_tracks",
+      "role": "observed",
+      "description": "How many tracks the Apple most-played songs feed returned. Usually echoes the requested length."
+    },
+    {
+      "name": "apple_unique_artists",
+      "role": "observed",
+      "description": "Unique artistName values on that chart snapshot."
+    },
+    {
+      "name": "apple_artist_diversity",
+      "role": "observed",
+      "description": "Unique artists divided by track count. Null if the storefront request failed."
+    },
+    {
+      "name": "apple_genre_hhi",
+      "role": "observed",
+      "description": "Hirschman-Herfindahl index of primary chart genres. Generic Music genres are skipped when a more specific genre exists."
+    },
+    {
+      "name": "apple_share_new_90d",
+      "role": "observed",
+      "description": "Share of chart tracks whose releaseDate is within 90 days before the feed updated timestamp."
+    },
+    {
+      "name": "apple_chart_as_of",
+      "role": "observed",
+      "description": "Date parsed from the Apple feed updated field."
+    },
+    {
+      "name": "pageview_window_start",
+      "role": "observed",
+      "description": "First month of the prior-12 pageview window, YYYY-MM."
+    },
+    {
+      "name": "pageview_window_end",
+      "role": "observed",
+      "description": "Last complete month requested from the Wikimedia pageviews API, YYYY-MM."
+    },
+    {
+      "name": "channel_pageviews_12m",
+      "role": "observed_proxy",
+      "description": "Sum of monthly user pageviews, last 12 complete months, for this channel's articles on the market's language Wikipedia. Null if fewer than 8 months were returned."
+    },
+    {
+      "name": "channel_pageviews_prior_12m",
+      "role": "observed_proxy",
+      "description": "Same sum for the previous 12 months."
+    },
+    {
+      "name": "channel_pageview_growth",
+      "role": "observed_proxy",
+      "description": "last_12 / prior_12 - 1. Null when prior views are under 50, so a tiny base cannot look like a boom."
+    },
+    {
+      "name": "channel_attention_share",
+      "role": "observed_proxy",
+      "description": "This channel's last-12 pageviews divided by the three modeled channels. Null for every channel if any channel total is missing."
+    },
+    {
+      "name": "channel_platforms_resolved",
+      "role": "observed",
+      "description": "How many pinned platform articles had a sitelink on this market's Wikipedia."
+    },
+    {
+      "name": "channel_platforms_with_views",
+      "role": "observed",
+      "description": "How many of those articles had a usable last-12 pageview sum."
+    },
+    {
+      "name": "streaming_pageview_growth",
+      "role": "observed_proxy",
+      "description": "Streaming-channel pageview growth, repeated on every channel row for the market. Audit column, not a model input."
+    },
+    {
+      "name": "short_video_pageview_growth",
+      "role": "observed_proxy",
+      "description": "Short-video pageview growth, repeated on every channel row. Audit column, not a model input."
+    },
+    {
+      "name": "social_pageview_growth",
+      "role": "observed_proxy",
+      "description": "Social/influencer pageview growth, repeated on every channel row. Not a count of brand deals."
+    },
+    {
+      "name": "streaming_platform_hhi",
+      "role": "observed_proxy",
+      "description": "HHI of last-12 pageviews across streaming articles in the market. 1 means one article has all the views."
+    },
+    {
+      "name": "streaming_platform_diversity",
+      "role": "observed_proxy",
+      "description": "1 - streaming_platform_hhi. Ingredient of the indie score, not re-stretched by min-max."
+    },
+    {
+      "name": "indie_accessibility_score",
+      "role": "heuristic",
+      "description": "Relative 0-1 score. See src/features/indie.py. Not a model input."
+    },
+    {
+      "name": "opportunity_score",
+      "role": "proxy_label",
+      "description": "Market-level ingredient of the proxy label. See src/features/proxy_target.py. Not a model input."
+    },
+    {
+      "name": "proxy_return_per_dollar",
+      "role": "proxy_label",
+      "description": "Synthetic label: opportunity times (0.35 + 0.65 * channel attention share). Not observed revenue per dollar."
+    },
+    {
+      "name": "streaming_mau_observed",
+      "role": "unavailable",
+      "description": "Platform MAU was not in any retrieved source. Left null on purpose."
+    },
+    {
+      "name": "streaming_mau_growth_observed",
+      "role": "unavailable",
+      "description": "No MAU history was retrieved. internet_user_cagr and streaming_pageview_growth are the proxies that do exist."
+    },
+    {
+      "name": "streaming_subscribers_observed",
+      "role": "unavailable",
+      "description": "No territory subscriber series was retrieved. IFPI's global paid-account sentence is not copied onto markets."
+    },
+    {
+      "name": "sync_rate_film_usd",
+      "role": "unavailable",
+      "description": "No public film sync rate card was retrieved."
+    },
+    {
+      "name": "sync_rate_tv_usd",
+      "role": "unavailable",
+      "description": "No public TV sync rate card was retrieved."
+    },
+    {
+      "name": "sync_rate_advertising_usd",
+      "role": "unavailable",
+      "description": "No public advertising sync rate card was retrieved."
+    },
+    {
+      "name": "sync_rate_game_usd",
+      "role": "unavailable",
+      "description": "No public game sync rate card was retrieved."
+    },
+    {
+      "name": "brand_deal_count_observed",
+      "role": "unavailable",
+      "description": "No public count of brand or influencer deals was retrieved."
+    },
+    {
+      "name": "brand_deal_avg_usd_observed",
+      "role": "unavailable",
+      "description": "No public influencer rate card was retrieved."
+    },
+    {
+      "name": "ad_cpm_usd_observed",
+      "role": "unavailable",
+      "description": "No public CPM by platform and territory was retrieved. Not filled with a guess."
+    },
+    {
+      "name": "ad_cpc_usd_observed",
+      "role": "unavailable",
+      "description": "No public CPC by platform and territory was retrieved."
+    },
+    {
+      "name": "channel_is_streaming_dsp",
+      "role": "model_flag",
+      "description": "1 if this row is the streaming DSP channel."
+    },
+    {
+      "name": "channel_is_short_video",
+      "role": "model_flag",
+      "description": "1 if this row is the short-video channel."
+    },
+    {
+      "name": "channel_is_social_influencer",
+      "role": "model_flag",
+      "description": "1 if this row is the social/influencer channel."
+    },
+    {
+      "name": "feature_completeness",
+      "role": "model_flag",
+      "description": "Share of COMPLETENESS_FIELDS that are non-null on this row."
+    }
+  ]
+}

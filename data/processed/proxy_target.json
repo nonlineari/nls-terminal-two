@@ -1,0 +1,35 @@
+{
+  "formula_id": "proxy-v1",
+  "formula": "proxy_return = opportunity * (0.35 + 0.65 * channel_attention_share)\n\nopportunity =\n    0.40 * minmax(log(internet_users))\n  + 0.25 * minmax(internet_user_cagr)\n  + 0.20 * minmax(share of population ages 0-14)\n  + 0.15 * (1 - minmax(log(gdp_per_capita_usd)))\n\ninternet_users = population * (internet users % / 100) on the latest year\nwhere both World Bank series are present. CAGR uses that constructed series\nfrom the earliest to the latest overlapping year, and only if the span is at\nleast 3 years.\n\nAges 0-14 stand in for a youth audience because the World Bank API rejected\nthe 15-24 indicator id SP.POP.1524.TO.ZS. It is not the 15-24 music demographic.\n\nIf CAGR or the age share is missing for any eligible market, that component is\ndropped and the remaining weights are renormalized to 1. A market is eligible\nonly when internet_users and gdp_per_capita are both positive.\n\nchannel_attention_share is the last-12-month share of local-Wikipedia\npageviews among streaming DSP, short video, and social/influencer articles.\nIt is an attention proxy, not a measured return. If the share is missing, the\nrow has no proxy label and is not used for training.\n\nMin-max is fit on the eligible markets in the same run only. The result is a\nunitless index, not revenue per dollar and not an NLS profit figure.",
+  "active_weights": {
+    "reach": 0.4,
+    "cost_access": 0.15,
+    "momentum": 0.25,
+    "demo": 0.2
+  },
+  "eligible_markets": [
+    "CN",
+    "HK",
+    "ID",
+    "JP",
+    "KR",
+    "TH",
+    "VN"
+  ],
+  "opportunity_notes": [],
+  "indie_active_weights": {
+    "internet": 0.24,
+    "mobile": 0.16,
+    "broadband": 0.12,
+    "young_share": 0.13,
+    "cost_access": 0.15,
+    "platform_diversity": 0.2
+  },
+  "indie_notes": [
+    "Mobile subscriptions per 100 people are capped at 150 before scaling. Values above that are treated as multi-SIM saturation."
+  ],
+  "labeled_rows": 21,
+  "markets": 7,
+  "ingestion_run_id": "20261022T054656Z",
+  "limitation": "proxy_return_per_dollar is not observed campaign ROI. Unavailable sync, MAU, brand-deal, and CPM columns are null on purpose."
+}

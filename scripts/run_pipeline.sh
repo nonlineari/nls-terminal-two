@@ -6,9 +6,18 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 export PYTHONUNBUFFERED=1
 
-python -m src.ingestion.run
-python -m src.features.build
-python -m src.model.train
-python -m src.cli report
-python -m src.cli recommend --budget 100000
-python -m unittest discover -s tests -v
+if command -v python >/dev/null 2>&1; then
+  PY=python
+elif command -v python3 >/dev/null 2>&1; then
+  PY=python3
+else
+  echo "Python 3 is required." >&2
+  exit 1
+fi
+
+"$PY" -m src.ingestion.run
+"$PY" -m src.features.build
+"$PY" -m src.model.train
+"$PY" -m src.cli report
+"$PY" -m src.cli recommend --budget 100000
+"$PY" -m unittest discover -s tests -v

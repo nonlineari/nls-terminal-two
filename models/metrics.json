@@ -1,0 +1,130 @@
+{
+  "generated_at": "2026-10-22T05:58:02Z",
+  "ingestion_run_id": "20261022T054656Z",
+  "label_mode": "channel_proxy",
+  "channel_informed": true,
+  "target": "proxy_return_per_dollar",
+  "estimator": "xgboost.XGBRegressor",
+  "why_xgboost": "XGBoost is the estimator because the training table is a few dozen rows. Depth-wise trees with max_depth 2 and a large L2 penalty stay shallower than LightGBM's leaf-wise default, which will isolate single markets on a sample this small. Either library would be underpowered; XGBoost is the more constrained default and installs as a single wheel. This is not a claim that gradient boosting recovers real promo ROI from public covariates.",
+  "hyperparameters": {
+    "n_estimators": 60,
+    "max_depth": 2,
+    "learning_rate": 0.05,
+    "min_child_weight": 1,
+    "subsample": 0.9,
+    "colsample_bytree": 0.9,
+    "reg_lambda": 8.0,
+    "reg_alpha": 1.0,
+    "gamma": 0.0,
+    "objective": "reg:squarederror",
+    "tree_method": "hist",
+    "n_jobs": 1,
+    "verbosity": 0,
+    "random_state_base": 42,
+    "ensemble_size": 5
+  },
+  "validation": "leave_one_market_out",
+  "loocv": {
+    "n": 21,
+    "mae": 0.16271187732660622,
+    "rmse": 0.20446219750088065,
+    "r2": -0.12571396848231808
+  },
+  "loocv_mean_baseline": {
+    "n": 21,
+    "mae": 0.17157521719661495,
+    "rmse": 0.21428031495529823,
+    "r2": -0.23642152989289533
+  },
+  "insample_full_fit": {
+    "n": 21,
+    "mae": 0.12208304276112569,
+    "rmse": 0.16474331936491474,
+    "r2": 0.2691678717644631
+  },
+  "separation": 0.10822788853666383,
+  "feature_importances_gain": [
+    {
+      "feature": "urban_pct",
+      "gain": 0.007440323848277331,
+      "share": 0.30249104061689963
+    },
+    {
+      "feature": "mobile_per_100",
+      "gain": 0.006540730129927397,
+      "share": 0.26591749280565724
+    },
+    {
+      "feature": "secure_servers_per_million",
+      "gain": 0.0037496669217944147,
+      "share": 0.15244506452537973
+    },
+    {
+      "feature": "channel_pageview_growth",
+      "gain": 0.00260428162291646,
+      "share": 0.10587870558320686
+    },
+    {
+      "feature": "channel_attention_share",
+      "gain": 0.00225915489718318,
+      "share": 0.09184736171422532
+    },
+    {
+      "feature": "inflation_pct",
+      "gain": 0.0008740284712985158,
+      "share": 0.035534176630376064
+    },
+    {
+      "feature": "channel_is_streaming_dsp",
+      "gain": 0.0005347776925191284,
+      "share": 0.021741723076512228
+    },
+    {
+      "feature": "apple_share_new_90d",
+      "gain": 0.0003055762965232134,
+      "share": 0.012423396320923114
+    },
+    {
+      "feature": "channel_is_short_video",
+      "gain": 0.0002883005188778043,
+      "share": 0.011721038726819748
+    },
+    {
+      "feature": "broadband_per_100",
+      "gain": 0.0,
+      "share": 0.0
+    },
+    {
+      "feature": "apple_genre_hhi",
+      "gain": 0.0,
+      "share": 0.0
+    },
+    {
+      "feature": "apple_artist_diversity",
+      "gain": 0.0,
+      "share": 0.0
+    },
+    {
+      "feature": "channel_is_social_influencer",
+      "gain": 0.0,
+      "share": 0.0
+    }
+  ],
+  "omitted_markets": [],
+  "confidence_cap": 0.85,
+  "formula_inputs_also_in_model": [
+    "channel_attention_share"
+  ],
+  "limitations": [
+    "The training label is a documented formula, not NLS campaign profit or loss.",
+    "Leave-one-market-out on seven markets is a small sample. The metrics move if one market is unusual.",
+    "Language-edition Wikipedia pageviews are not streaming MAU and are not a clean country panel.",
+    "No public sync rate card or territory CPM/CPC series entered the model.",
+    "Ages 0-14 stand in for a youth audience. The 15-24 World Bank indicator id was rejected by the API.",
+    "Mobile, broadband, and server density still correlate with income and internet use, so some fit is mechanical.",
+    "Confidence is capped at 0.85 because the label is synthetic.",
+    "Apple charts are one snapshot, not a growth series.",
+    "Hong Kong mobile subscriptions per 100 people exceed 300 because of multi-SIM use. The indie score caps that input at 150.",
+    "Output is a research allocation of a proxy index, not media-buying advice."
+  ]
+}

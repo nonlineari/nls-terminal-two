@@ -1,0 +1,3875 @@
+{
+  "source": "worldbank",
+  "api": "https://api.worldbank.org/v2",
+  "pulled_at": "2026-10-22T05:46:57Z",
+  "run_id": "20261022T054656Z",
+  "history_range": "2015:2025",
+  "core_counts": {
+    "SP.POP.TOTL": 7,
+    "IT.NET.USER.ZS": 7,
+    "NY.GDP.PCAP.CD": 7
+  },
+  "core_ok": true,
+  "indicators": {
+    "SP.POP.TOTL": {
+      "ok": true,
+      "url": "https://api.worldbank.org/v2/country/KOR;JPN;IDN;VNM;THA;CHN;HKG/indicator/SP.POP.TOTL?format=json&per_page=1000&date=2015%3A2025",
+      "error": null,
+      "body": [
+        {
+          "page": 1,
+          "pages": 1,
+          "per_page": 1000,
+          "total": 77,
+          "sourceid": "2",
+          "lastupdated": "2026-10-08"
+        },
+        [
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2025",
+            "value": 1406585000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2024",
+            "value": 1408975000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2023",
+            "value": 1410710000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2022",
+            "value": 1412175000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2021",
+            "value": 1412360000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2020",
+            "value": 1411100000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2019",
+            "value": 1407745000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2018",
+            "value": 1402760000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2017",
+            "value": 1396215000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2016",
+            "value": 1387790000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2015",
+            "value": 1379860000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2025",
+            "value": 7498900,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2024",
+            "value": 7524100,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2023",
+            "value": 7536100,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2022",
+            "value": 7346100,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2021",
+            "value": 7413100,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2020",
+            "value": 7481000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2019",
+            "value": 7507900,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2018",
+            "value": 7452600,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2017",
+            "value": 7393200,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2016",
+            "value": 7336600,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2015",
+            "value": 7291300,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2025",
+            "value": 285721236,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2024",
+            "value": 283487931,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2023",
+            "value": 281190067,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2022",
+            "value": 278830529,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2021",
+            "value": 276758053,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2020",
+            "value": 274814866,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2019",
+            "value": 272489381,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2018",
+            "value": 269951846,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2017",
+            "value": 267346658,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2016",
+            "value": 264627418,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2015",
+            "value": 261799249,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2025",
+            "value": 123366734,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2024",
+            "value": 123975371,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2023",
+            "value": 124516650,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2022",
+            "value": 125124989,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2021",
+            "value": 125681593,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2020",
+            "value": 126261000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2019",
+            "value": 126633000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2018",
+            "value": 126811000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2017",
+            "value": 126972000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2016",
+            "value": 127076000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2015",
+            "value": 127141000,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2025",
+            "value": 51684564,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2024",
+            "value": 51751065,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2023",
+            "value": 51712619,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2022",
+            "value": 51672569,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2021",
+            "value": 51769539,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2020",
+            "value": 51836239,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2019",
+            "value": 51764822,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2018",
+            "value": 51585058,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2017",
+            "value": 51361911,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2016",
+            "value": 51217803,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2015",
+            "value": 51014947,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2025",
+            "value": 71619863,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2024",
+            "value": 71668011,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2023",
+            "value": 71702435,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2022",
+            "value": 71735329,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2021",
+            "value": 71727332,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2020",
+            "value": 71641484,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2019",
+            "value": 71522271,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2018",
+            "value": 71376079,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2017",
+            "value": 71160187,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2016",
+            "value": 70859841,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2015",
+            "value": 70540795,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2025",
+            "value": 101598527,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2024",
+            "value": 100987686,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2023",
+            "value": 100352192,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2022",
+            "value": 99680655,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2021",
+            "value": 98935098,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2020",
+            "value": 98079191,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2019",
+            "value": 97173776,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2018",
+            "value": 96237319,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2017",
+            "value": 95176977,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2016",
+            "value": 94000117,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.TOTL",
+              "value": "Population, total"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2015",
+            "value": 92823254,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          }
+        ]
+      ],
+      "history": true
+    },
+    "IT.NET.USER.ZS": {
+      "ok": true,
+      "url": "https://api.worldbank.org/v2/country/KOR;JPN;IDN;VNM;THA;CHN;HKG/indicator/IT.NET.USER.ZS?format=json&per_page=1000&date=2015%3A2025",
+      "error": null,
+      "body": [
+        {
+          "page": 1,
+          "pages": 1,
+          "per_page": 1000,
+          "total": 77,
+          "sourceid": "2",
+          "lastupdated": "2026-10-08"
+        },
+        [
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2025",
+            "value": 91.6,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2024",
+            "value": 92,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2023",
+            "value": 90.6,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2022",
+            "value": 75.61131603,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2021",
+            "value": 73.05323517,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2020",
+            "value": 70.05275998,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2019",
+            "value": 64.080881297515,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2018",
+            "value": 65.35839844,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2017",
+            "value": 54.3,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2016",
+            "value": 53.2,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2015",
+            "value": 50.29999924,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2025",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2024",
+            "value": 95.75536971,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2023",
+            "value": 95.97781908,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2022",
+            "value": 95.61357052,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2021",
+            "value": 93.08715788,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2020",
+            "value": 92.41313602,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2019",
+            "value": 91.7434003891587,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2018",
+            "value": 90.5073953294283,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2017",
+            "value": 89.4159446487565,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2016",
+            "value": 87.47941467087,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2015",
+            "value": 84.9483529634062,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2025",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2024",
+            "value": 72.78075544,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2023",
+            "value": 69.20836554,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2022",
+            "value": 66.48461277,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2021",
+            "value": 62.10447842,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2020",
+            "value": 53.72649449,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2019",
+            "value": 47.6906489788375,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2018",
+            "value": 39.9046386385762,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2017",
+            "value": 32.335806250688,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2016",
+            "value": 25.447353701827,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2015",
+            "value": 22.062742603379,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2025",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2024",
+            "value": 85.54153081,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2023",
+            "value": 85.00990295,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2022",
+            "value": 84.92343147,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2021",
+            "value": 82.91407928,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2020",
+            "value": 90.21945812,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2019",
+            "value": 92.7303978145525,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2018",
+            "value": 88.7463508901772,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2017",
+            "value": 91.7265472366635,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2016",
+            "value": 93.1827212821617,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2015",
+            "value": 91.0580283929962,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2025",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2024",
+            "value": 97.89563777,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2023",
+            "value": 97.41597478,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2022",
+            "value": 97.16855335,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2021",
+            "value": 97.57132698,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2020",
+            "value": 96.50506052,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2019",
+            "value": 96.157579184239,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2018",
+            "value": 96.0228595797887,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2017",
+            "value": 95.0694218761004,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2016",
+            "value": 92.8430256796075,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2015",
+            "value": 89.8962557995106,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2025",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2024",
+            "value": 90.86718789,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2023",
+            "value": 89.53525238,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2022",
+            "value": 87.97724503,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2021",
+            "value": 85.26956666,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2020",
+            "value": 77.84374066,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2019",
+            "value": 66.6524194587528,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2018",
+            "value": 56.8174809301456,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2017",
+            "value": 52.8919293439676,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2016",
+            "value": 47.5049656215909,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2015",
+            "value": 39.3161267365004,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2025",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2024",
+            "value": 84.15,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2023",
+            "value": 78.08,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2022",
+            "value": 78.58999918,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2021",
+            "value": 74.20999985,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2020",
+            "value": 70.30000012,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2019",
+            "value": 68.6615802057338,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2018",
+            "value": 69.8479286837965,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2017",
+            "value": 58.1400000036297,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2016",
+            "value": 53,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.USER.ZS",
+              "value": "Individuals using the Internet (% of population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2015",
+            "value": 45,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 0
+          }
+        ]
+      ],
+      "history": true
+    },
+    "NY.GDP.PCAP.CD": {
+      "ok": true,
+      "url": "https://api.worldbank.org/v2/country/KOR;JPN;IDN;VNM;THA;CHN;HKG/indicator/NY.GDP.PCAP.CD?format=json&per_page=1000&mrnev=1",
+      "error": null,
+      "body": [
+        {
+          "page": 1,
+          "pages": 1,
+          "per_page": 1000,
+          "total": 7,
+          "sourceid": null,
+          "lastupdated": "2026-10-08"
+        },
+        [
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.CD",
+              "value": "GDP per capita (current US$)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2025",
+            "value": 13861.970224368,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.CD",
+              "value": "GDP per capita (current US$)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2025",
+            "value": 56983.0663059906,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.CD",
+              "value": "GDP per capita (current US$)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2025",
+            "value": 5059.62596411213,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.CD",
+              "value": "GDP per capita (current US$)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2025",
+            "value": 35951.0449549304,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.CD",
+              "value": "GDP per capita (current US$)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2025",
+            "value": 36226.9663637512,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.CD",
+              "value": "GDP per capita (current US$)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2025",
+            "value": 8056.56359761558,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.CD",
+              "value": "GDP per capita (current US$)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2025",
+            "value": 5065.99091899299,
+            "obs_status": "",
+            "decimal": 1
+          }
+        ]
+      ],
+      "history": false
+    },
+    "NY.GDP.PCAP.PP.CD": {
+      "ok": true,
+      "url": "https://api.worldbank.org/v2/country/KOR;JPN;IDN;VNM;THA;CHN;HKG/indicator/NY.GDP.PCAP.PP.CD?format=json&per_page=1000&mrnev=1",
+      "error": null,
+      "body": [
+        {
+          "page": 1,
+          "pages": 1,
+          "per_page": 1000,
+          "total": 7,
+          "sourceid": null,
+          "lastupdated": "2026-10-08"
+        },
+        [
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.PP.CD",
+              "value": "GDP per capita, PPP (current international $)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2025",
+            "value": 29333.3311051433,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.PP.CD",
+              "value": "GDP per capita, PPP (current international $)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2025",
+            "value": 80422.8129947646,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.PP.CD",
+              "value": "GDP per capita, PPP (current international $)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2025",
+            "value": 17659.7921291587,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.PP.CD",
+              "value": "GDP per capita, PPP (current international $)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2025",
+            "value": 55421.8797530311,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.PP.CD",
+              "value": "GDP per capita, PPP (current international $)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2025",
+            "value": 63124.9152183625,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.PP.CD",
+              "value": "GDP per capita, PPP (current international $)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2025",
+            "value": 26250.0723587304,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.PCAP.PP.CD",
+              "value": "GDP per capita, PPP (current international $)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2025",
+            "value": 18088.491587163,
+            "obs_status": "",
+            "decimal": 1
+          }
+        ]
+      ],
+      "history": false
+    },
+    "NY.GDP.MKTP.CD": {
+      "ok": true,
+      "url": "https://api.worldbank.org/v2/country/KOR;JPN;IDN;VNM;THA;CHN;HKG/indicator/NY.GDP.MKTP.CD?format=json&per_page=1000&mrnev=1",
+      "error": null,
+      "body": [
+        {
+          "page": 1,
+          "pages": 1,
+          "per_page": 1000,
+          "total": 7,
+          "sourceid": null,
+          "lastupdated": "2026-10-08"
+        },
+        [
+          {
+            "indicator": {
+              "id": "NY.GDP.MKTP.CD",
+              "value": "GDP (current US$)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2025",
+            "value": 19498039388042.6,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.MKTP.CD",
+              "value": "GDP (current US$)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2025",
+            "value": 427310315921.993,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.MKTP.CD",
+              "value": "GDP (current US$)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2025",
+            "value": 1445642584163.81,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.MKTP.CD",
+              "value": "GDP (current US$)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2025",
+            "value": 4435162999976.94,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.MKTP.CD",
+              "value": "GDP (current US$)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2025",
+            "value": 1872374961553.15,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.MKTP.CD",
+              "value": "GDP (current US$)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2025",
+            "value": 577009981112.015,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "NY.GDP.MKTP.CD",
+              "value": "GDP (current US$)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2025",
+            "value": 514697215165.065,
+            "obs_status": "",
+            "decimal": 0
+          }
+        ]
+      ],
+      "history": false
+    },
+    "IT.CEL.SETS.P2": {
+      "ok": true,
+      "url": "https://api.worldbank.org/v2/country/KOR;JPN;IDN;VNM;THA;CHN;HKG/indicator/IT.CEL.SETS.P2?format=json&per_page=1000&mrnev=1",
+      "error": null,
+      "body": [
+        {
+          "page": 1,
+          "pages": 1,
+          "per_page": 1000,
+          "total": 7,
+          "sourceid": null,
+          "lastupdated": "2026-10-08"
+        },
+        [
+          {
+            "indicator": {
+              "id": "IT.CEL.SETS.P2",
+              "value": "Mobile cellular subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2024",
+            "value": 131.753932036803,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.CEL.SETS.P2",
+              "value": "Mobile cellular subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2024",
+            "value": 364.848981963231,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.CEL.SETS.P2",
+              "value": "Mobile cellular subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2024",
+            "value": 122.514946500491,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.CEL.SETS.P2",
+              "value": "Mobile cellular subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2023",
+            "value": 178.432441299977,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.CEL.SETS.P2",
+              "value": "Mobile cellular subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2024",
+            "value": 172.520241179065,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.CEL.SETS.P2",
+              "value": "Mobile cellular subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2024",
+            "value": 160.639312286761,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.CEL.SETS.P2",
+              "value": "Mobile cellular subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2024",
+            "value": 127.606471743496,
+            "obs_status": "",
+            "decimal": 0
+          }
+        ]
+      ],
+      "history": false
+    },
+    "IT.NET.BBND.P2": {
+      "ok": true,
+      "url": "https://api.worldbank.org/v2/country/KOR;JPN;IDN;VNM;THA;CHN;HKG/indicator/IT.NET.BBND.P2?format=json&per_page=1000&mrnev=1",
+      "error": null,
+      "body": [
+        {
+          "page": 1,
+          "pages": 1,
+          "per_page": 1000,
+          "total": 7,
+          "sourceid": null,
+          "lastupdated": "2026-10-08"
+        },
+        [
+          {
+            "indicator": {
+              "id": "IT.NET.BBND.P2",
+              "value": "Fixed broadband subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2024",
+            "value": 47.1933952081567,
+            "obs_status": "",
+            "decimal": 2
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.BBND.P2",
+              "value": "Fixed broadband subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2024",
+            "value": 40.2724025338679,
+            "obs_status": "",
+            "decimal": 2
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.BBND.P2",
+              "value": "Fixed broadband subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2024",
+            "value": 4.92196685438436,
+            "obs_status": "",
+            "decimal": 2
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.BBND.P2",
+              "value": "Fixed broadband subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2023",
+            "value": 38.6312383711286,
+            "obs_status": "",
+            "decimal": 2
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.BBND.P2",
+              "value": "Fixed broadband subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2024",
+            "value": 47.8014965507867,
+            "obs_status": "",
+            "decimal": 2
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.BBND.P2",
+              "value": "Fixed broadband subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2024",
+            "value": 14.8870491187484,
+            "obs_status": "",
+            "decimal": 2
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.BBND.P2",
+              "value": "Fixed broadband subscriptions (per 100 people)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2024",
+            "value": 23.711259212336,
+            "obs_status": "",
+            "decimal": 2
+          }
+        ]
+      ],
+      "history": false
+    },
+    "SP.URB.TOTL.IN.ZS": {
+      "ok": true,
+      "url": "https://api.worldbank.org/v2/country/KOR;JPN;IDN;VNM;THA;CHN;HKG/indicator/SP.URB.TOTL.IN.ZS?format=json&per_page=1000&mrnev=1",
+      "error": null,
+      "body": [
+        {
+          "page": 1,
+          "pages": 1,
+          "per_page": 1000,
+          "total": 7,
+          "sourceid": null,
+          "lastupdated": "2026-10-08"
+        },
+        [
+          {
+            "indicator": {
+              "id": "SP.URB.TOTL.IN.ZS",
+              "value": "Urban population (% of total population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2025",
+            "value": 66.3429910348272,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.URB.TOTL.IN.ZS",
+              "value": "Urban population (% of total population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2025",
+            "value": 100,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.URB.TOTL.IN.ZS",
+              "value": "Urban population (% of total population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2025",
+            "value": 59.3929063969984,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.URB.TOTL.IN.ZS",
+              "value": "Urban population (% of total population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2025",
+            "value": 92.3001449420786,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.URB.TOTL.IN.ZS",
+              "value": "Urban population (% of total population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2025",
+            "value": 81.1740263306674,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.URB.TOTL.IN.ZS",
+              "value": "Urban population (% of total population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2025",
+            "value": 62.7993377136296,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.URB.TOTL.IN.ZS",
+              "value": "Urban population (% of total population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2025",
+            "value": 38.8299160351294,
+            "obs_status": "",
+            "decimal": 0
+          }
+        ]
+      ],
+      "history": false
+    },
+    "SP.POP.0014.TO.ZS": {
+      "ok": true,
+      "url": "https://api.worldbank.org/v2/country/KOR;JPN;IDN;VNM;THA;CHN;HKG/indicator/SP.POP.0014.TO.ZS?format=json&per_page=1000&mrnev=1",
+      "error": null,
+      "body": [
+        {
+          "page": 1,
+          "pages": 1,
+          "per_page": 1000,
+          "total": 7,
+          "sourceid": null,
+          "lastupdated": "2026-10-08"
+        },
+        [
+          {
+            "indicator": {
+              "id": "SP.POP.0014.TO.ZS",
+              "value": "Population ages 0-14 (% of total population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2025",
+            "value": 15.4072909264023,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.0014.TO.ZS",
+              "value": "Population ages 0-14 (% of total population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2025",
+            "value": 10.3113664597281,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.0014.TO.ZS",
+              "value": "Population ages 0-14 (% of total population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2025",
+            "value": 24.2472504288188,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.0014.TO.ZS",
+              "value": "Population ages 0-14 (% of total population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2025",
+            "value": 11.2383980634698,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.0014.TO.ZS",
+              "value": "Population ages 0-14 (% of total population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2025",
+            "value": 10.2044670479846,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.0014.TO.ZS",
+              "value": "Population ages 0-14 (% of total population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2025",
+            "value": 14.4141877233136,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.0014.TO.ZS",
+              "value": "Population ages 0-14 (% of total population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2025",
+            "value": 22.8560173908821,
+            "obs_status": "",
+            "decimal": 0
+          }
+        ]
+      ],
+      "history": false
+    },
+    "SP.POP.1564.TO.ZS": {
+      "ok": true,
+      "url": "https://api.worldbank.org/v2/country/KOR;JPN;IDN;VNM;THA;CHN;HKG/indicator/SP.POP.1564.TO.ZS?format=json&per_page=1000&mrnev=1",
+      "error": null,
+      "body": [
+        {
+          "page": 1,
+          "pages": 1,
+          "per_page": 1000,
+          "total": 7,
+          "sourceid": null,
+          "lastupdated": "2026-10-08"
+        },
+        [
+          {
+            "indicator": {
+              "id": "SP.POP.1564.TO.ZS",
+              "value": "Population ages 15-64 (% of total population)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2025",
+            "value": 69.6812776464024,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.1564.TO.ZS",
+              "value": "Population ages 15-64 (% of total population)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2025",
+            "value": 66.0213131936448,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.1564.TO.ZS",
+              "value": "Population ages 15-64 (% of total population)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2025",
+            "value": 68.2099803183862,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.1564.TO.ZS",
+              "value": "Population ages 15-64 (% of total population)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2025",
+            "value": 58.7675052627879,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.1564.TO.ZS",
+              "value": "Population ages 15-64 (% of total population)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2025",
+            "value": 69.465114111118,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.1564.TO.ZS",
+              "value": "Population ages 15-64 (% of total population)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2025",
+            "value": 69.5683912436415,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "SP.POP.1564.TO.ZS",
+              "value": "Population ages 15-64 (% of total population)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2025",
+            "value": 67.6494468271179,
+            "obs_status": "",
+            "decimal": 0
+          }
+        ]
+      ],
+      "history": false
+    },
+    "FP.CPI.TOTL.ZG": {
+      "ok": true,
+      "url": "https://api.worldbank.org/v2/country/KOR;JPN;IDN;VNM;THA;CHN;HKG/indicator/FP.CPI.TOTL.ZG?format=json&per_page=1000&mrnev=1",
+      "error": null,
+      "body": [
+        {
+          "page": 1,
+          "pages": 1,
+          "per_page": 1000,
+          "total": 7,
+          "sourceid": null,
+          "lastupdated": "2026-10-08"
+        },
+        [
+          {
+            "indicator": {
+              "id": "FP.CPI.TOTL.ZG",
+              "value": "Inflation, consumer prices (annual %)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2025",
+            "value": 0.0595646916565402,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "FP.CPI.TOTL.ZG",
+              "value": "Inflation, consumer prices (annual %)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2025",
+            "value": 1.43633540372673,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "FP.CPI.TOTL.ZG",
+              "value": "Inflation, consumer prices (annual %)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2025",
+            "value": 1.91333443295079,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "FP.CPI.TOTL.ZG",
+              "value": "Inflation, consumer prices (annual %)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2025",
+            "value": 3.17253034260247,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "FP.CPI.TOTL.ZG",
+              "value": "Inflation, consumer prices (annual %)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2025",
+            "value": 2.12309421458659,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "FP.CPI.TOTL.ZG",
+              "value": "Inflation, consumer prices (annual %)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2025",
+            "value": -0.133634356480206,
+            "obs_status": "",
+            "decimal": 1
+          },
+          {
+            "indicator": {
+              "id": "FP.CPI.TOTL.ZG",
+              "value": "Inflation, consumer prices (annual %)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2025",
+            "value": 3.30999314219739,
+            "obs_status": "",
+            "decimal": 1
+          }
+        ]
+      ],
+      "history": false
+    },
+    "PA.NUS.FCRF": {
+      "ok": true,
+      "url": "https://api.worldbank.org/v2/country/KOR;JPN;IDN;VNM;THA;CHN;HKG/indicator/PA.NUS.FCRF?format=json&per_page=1000&mrnev=1",
+      "error": null,
+      "body": [
+        {
+          "page": 1,
+          "pages": 1,
+          "per_page": 1000,
+          "total": 7,
+          "sourceid": null,
+          "lastupdated": "2026-10-08"
+        },
+        [
+          {
+            "indicator": {
+              "id": "PA.NUS.FCRF",
+              "value": "Official exchange rate (LCU per US$, period average)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2025",
+            "value": 7.18984737402171,
+            "obs_status": "",
+            "decimal": 2
+          },
+          {
+            "indicator": {
+              "id": "PA.NUS.FCRF",
+              "value": "Official exchange rate (LCU per US$, period average)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2025",
+            "value": 7.79708333333333,
+            "obs_status": "",
+            "decimal": 2
+          },
+          {
+            "indicator": {
+              "id": "PA.NUS.FCRF",
+              "value": "Official exchange rate (LCU per US$, period average)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2025",
+            "value": 16477.8651797835,
+            "obs_status": "",
+            "decimal": 2
+          },
+          {
+            "indicator": {
+              "id": "PA.NUS.FCRF",
+              "value": "Official exchange rate (LCU per US$, period average)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2025",
+            "value": 149.657926890951,
+            "obs_status": "",
+            "decimal": 2
+          },
+          {
+            "indicator": {
+              "id": "PA.NUS.FCRF",
+              "value": "Official exchange rate (LCU per US$, period average)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2025",
+            "value": 1422.44083333333,
+            "obs_status": "",
+            "decimal": 2
+          },
+          {
+            "indicator": {
+              "id": "PA.NUS.FCRF",
+              "value": "Official exchange rate (LCU per US$, period average)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2025",
+            "value": 32.882809252867,
+            "obs_status": "",
+            "decimal": 2
+          },
+          {
+            "indicator": {
+              "id": "PA.NUS.FCRF",
+              "value": "Official exchange rate (LCU per US$, period average)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2024",
+            "value": 24164.8858333333,
+            "obs_status": "",
+            "decimal": 2
+          }
+        ]
+      ],
+      "history": false
+    },
+    "IT.NET.SECR.P6": {
+      "ok": true,
+      "url": "https://api.worldbank.org/v2/country/KOR;JPN;IDN;VNM;THA;CHN;HKG/indicator/IT.NET.SECR.P6?format=json&per_page=1000&mrnev=1",
+      "error": null,
+      "body": [
+        {
+          "page": 1,
+          "pages": 1,
+          "per_page": 1000,
+          "total": 7,
+          "sourceid": null,
+          "lastupdated": "2026-10-08"
+        },
+        [
+          {
+            "indicator": {
+              "id": "IT.NET.SECR.P6",
+              "value": "Secure Internet servers (per 1 million people)"
+            },
+            "country": {
+              "id": "CN",
+              "value": "China"
+            },
+            "countryiso3code": "CHN",
+            "date": "2024",
+            "value": 1413.32103124612,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.SECR.P6",
+              "value": "Secure Internet servers (per 1 million people)"
+            },
+            "country": {
+              "id": "HK",
+              "value": "Hong Kong SAR, China"
+            },
+            "countryiso3code": "HKG",
+            "date": "2024",
+            "value": 156139.206017995,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.SECR.P6",
+              "value": "Secure Internet servers (per 1 million people)"
+            },
+            "country": {
+              "id": "ID",
+              "value": "Indonesia"
+            },
+            "countryiso3code": "IDN",
+            "date": "2024",
+            "value": 2939.49021766292,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.SECR.P6",
+              "value": "Secure Internet servers (per 1 million people)"
+            },
+            "country": {
+              "id": "JP",
+              "value": "Japan"
+            },
+            "countryiso3code": "JPN",
+            "date": "2024",
+            "value": 32928.7580837326,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.SECR.P6",
+              "value": "Secure Internet servers (per 1 million people)"
+            },
+            "country": {
+              "id": "KR",
+              "value": "Korea, Rep."
+            },
+            "countryiso3code": "KOR",
+            "date": "2024",
+            "value": 11902.38307173,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.SECR.P6",
+              "value": "Secure Internet servers (per 1 million people)"
+            },
+            "country": {
+              "id": "TH",
+              "value": "Thailand"
+            },
+            "countryiso3code": "THA",
+            "date": "2024",
+            "value": 3149.99672587537,
+            "obs_status": "",
+            "decimal": 0
+          },
+          {
+            "indicator": {
+              "id": "IT.NET.SECR.P6",
+              "value": "Secure Internet servers (per 1 million people)"
+            },
+            "country": {
+              "id": "VN",
+              "value": "Viet Nam"
+            },
+            "countryiso3code": "VNM",
+            "date": "2024",
+            "value": 5733.7485681175,
+            "obs_status": "",
+            "decimal": 0
+          }
+        ]
+      ],
+      "history": false
+    },
+    "SP.POP.1524.TO.ZS": {
+      "ok": false,
+      "url": "https://api.worldbank.org/v2/country/HKG/indicator/SP.POP.1524.TO.ZS?format=json&per_page=1000&mrnev=1",
+      "error": "World Bank error: [{'id': '120', 'key': 'Invalid value', 'value': 'The provided parameter value is not valid'}]",
+      "body": null,
+      "history": false
+    }
+  }
+}

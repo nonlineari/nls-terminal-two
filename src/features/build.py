@@ -11,6 +11,7 @@ from src.config import (
     CHANNELS,
     FEATURE_DICTIONARY_PATH,
     FEATURE_MATRIX_PATH,
+    FORMULA_ID,
     MANIFEST_PATH,
     MARKET_COMPONENTS_PATH,
     PROCESSED_DIR,
@@ -25,7 +26,7 @@ from src.features.macro import market_macro_rows
 from src.features.pageviews import channel_attention
 from src.features.proxy_target import FORMULA_TEXT, build_opportunity, proxy_return
 from src.jsonutil import read_json, write_json
-from src.model.spec import COMPLETENESS_FIELDS, FORMULA_ID
+from src.model.spec import COMPLETENESS_FIELDS
 
 logger = logging.getLogger(__name__)
 

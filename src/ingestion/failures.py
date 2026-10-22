@@ -11,6 +11,12 @@ from src.jsonutil import jsonable
 logger = logging.getLogger(__name__)
 
 
+def reset_failure_log() -> None:
+    """Replace the log at the start of a run so it matches latest_run.json."""
+    FAILURES_PATH.parent.mkdir(parents=True, exist_ok=True)
+    FAILURES_PATH.write_text("", encoding="utf-8")
+
+
 def record_failure(run_id: str, **fields: object) -> None:
     row = {"run_id": run_id, "logged_at": iso_now(), **fields}
     FAILURES_PATH.parent.mkdir(parents=True, exist_ok=True)

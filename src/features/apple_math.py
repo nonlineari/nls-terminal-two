@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from datetime import date, datetime
+from email.utils import parsedate_to_datetime
 
 GENERIC_GENRES = {
     "music",
@@ -18,11 +19,22 @@ GENERIC_GENRES = {
 
 
 def _parse_date(value: object) -> date | None:
-    if not isinstance(value, str) or len(value) < 10:
+    """Accept a YYYY-MM-DD prefix or an RFC 2822 feed timestamp.
+
+    Apple's `updated` field looks like 'Thu, 22 Oct 2026 05:46:59 +0000'.
+    Track release dates are calendar dates.
+    """
+    if not isinstance(value, str):
         return None
+    text = value.strip()
+    if len(text) >= 10:
+        try:
+            return datetime.strptime(text[:10], "%Y-%m-%d").date()
+        except ValueError:
+            pass
     try:
-        return datetime.strptime(value[:10], "%Y-%m-%d").date()
-    except ValueError:
+        return parsedate_to_datetime(text).date()
+    except (TypeError, ValueError, IndexError, OverflowError):
         return None
 
 

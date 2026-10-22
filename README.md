@@ -60,20 +60,20 @@ pip install -r requirements.txt
 bash scripts/run_pipeline.sh
 ```
 
-Or step by step, from the repository root:
+Or step by step, from the repository root. Use `python` when that command is Python 3; the commands below use `python3`.
 
 ```bash
-python -m src.ingestion.run
-python -m src.features.build
-python -m src.model.train
-python -m src.cli report
-python -m src.cli recommend --budget 100000
+python3 -m src.ingestion.run
+python3 -m src.features.build
+python3 -m src.model.train
+python3 -m src.cli report
+python3 -m src.cli recommend --budget 100000
 ```
 
 `make pipeline`, `make test`, and `make recommend` call the same entry points. Ingestion logs blocked or empty sources to `data/raw/_failed_sources.jsonl` and continues. It exits with an error only when the core World Bank series (population, internet users, GDP per capita) are missing for too many markets, because the proxy cannot be built without them. The unit tests do not need the network:
 
 ```bash
-python -m unittest discover -s tests -v
+python3 -m unittest discover -s tests -v
 ```
 
 ## Layout
@@ -92,9 +92,79 @@ scripts/run_pipeline.sh
 
 ## Latest run
 
-The figures in this section are written by the pipeline in this environment and should be read next to `models/metrics.json` and `data/raw/latest_run.json`. Re-run `bash scripts/run_pipeline.sh` to replace them.
+Pulled `20261022T054656Z`. Read `data/raw/latest_run.json` and `models/metrics.json` beside this section. Re-run `bash scripts/run_pipeline.sh` to replace both.
 
-_Results are filled in after the first end-to-end run._
+### What came back
+
+| Source | Result |
+| --- | --- |
+| World Bank (population, internet, GDP per capita, mobile, broadband, urban, ages 0–14 and 15–64, inflation, official FX, secure servers) | Pulled for all seven markets. Internet-user counts use 2024 except China, which uses 2025 because that is the latest year both series exist. |
+| World Bank ages 15–24 (`SP.POP.1524.TO.ZS`) | API error 120, invalid indicator id. Logged. Not replaced with a made-up series. |
+| Frankfurter USD rates | KRW, JPY, IDR, THB, CNY, HKD on 2026-10-21. VND 404. Vietnam keeps the World Bank official rate only. |
+| Wikidata + Wikimedia pageviews | 13 platforms accepted (Spotify, Apple Music, YouTube Music, Amazon Music, Melon, LINE MUSIC, JOOX, QQ Music, NetEase Cloud Music, KKBOX, TikTok, YouTube, Instagram). 75 article series returned, 16 had no sitelink on that language edition. Window: Oct 2024–Sep 2026. |
+| Optional platforms AWA, Genie Music, Bugs | No unambiguous Wikidata item. Logged. No views invented. |
+| Apple most-played songs | All seven storefronts returned 25 tracks. |
+| IFPI industry page | Fetched. Visible text had no territory names. Global sentences kept in the raw cache and not copied onto markets: 2024 global recorded-music revenue +4.8%; streaming 69.0% of global revenue; streaming +9.5%; 752 million paid subscription accounts worldwide. |
+| IFPI Global Music Report PDF paths (2024 and 2025 guesses) | HTTP 404. |
+| Statista digital-music outlook and social CPM | No territorial table extracted. No CPM copied. |
+| RIAJ digital page | HTTP 503. |
+| ASCAP royalty help | HTTP 403. No sync rate card. |
+| Deezer chart | Global chart only. Not assigned to markets. |
+
+Null on every row, on purpose: streaming MAU, subscribers, film/TV/advertising/game sync rates, brand-deal counts and prices, CPM, CPC.
+
+### Proxy label, before the model
+
+The formula ran with all four components (weights 0.40 / 0.25 / 0.20 / 0.15). It is a unitless index.
+
+| Market | Internet-user CAGR | Opportunity | Indie score | Short-video attention |
+| --- | --- | --- | --- | --- |
+| Indonesia | 15.2% | 0.86 | 0.41 | 0.84 |
+| China | 6.4% | 0.68 | 0.64 | 0.63 |
+| Vietnam | 8.2% | 0.66 | 0.59 | 0.89 |
+| Thailand | 9.9% | 0.52 | 0.66 | 0.75 |
+| Japan | −1.0% | 0.25 | 0.55 | 0.50 |
+| Korea | 1.1% | 0.21 | 0.69 | 0.65 |
+| Hong Kong | 1.7% | 0.04 | 0.62 | 0.74 |
+
+Indonesia ranks high on the formula because internet-user growth, the 0–14 age share, and low GDP per capita all point the same way, on top of a large online population. Hong Kong ranks low because the online population is small, GDP per capita is high, and growth is slow. Short-video articles (YouTube and TikTok) take most of the Wikipedia attention in every market. That is a fact about those language editions, not a measured return.
+
+The indie score is a different heuristic (connectivity, capped mobile, age, inverse GDP, streaming-article diversity). Korea is highest (0.69) and Indonesia lowest (0.41). It is not a model input.
+
+### Model
+
+Leave-one-market-out, 21 rows, XGBoost ensemble of 5, depth 2, seed 42.
+
+| | MAE | RMSE | R² |
+| --- | --- | --- | --- |
+| LOOCV model | 0.163 | 0.204 | −0.126 |
+| LOOCV train-fold mean | 0.172 | 0.214 | −0.236 |
+| In-sample fit (optimistic) | 0.122 | | 0.269 |
+
+The model is slightly closer in absolute error than guessing the training mean, and it does not beat a flat line on R². Separation of predictions versus labels is 0.11. Labels run from 0.02 to 0.77. Out-of-fold predictions all sit between 0.23 and 0.30. The model pulls Indonesia's short-video label (0.77) down to 0.24 and Hong Kong's streaming label (0.02) up to 0.29. It cannot see population, internet CAGR, age, or GDP, and the structural features it can see do not recover that formula.
+
+Mean gain share:
+
+| Feature | Share |
+| --- | --- |
+| urban_pct | 30.2% |
+| mobile_per_100 | 26.6% |
+| secure_servers_per_million | 15.2% |
+| channel_pageview_growth | 10.6% |
+| channel_attention_share | 9.2% |
+| inflation_pct | 3.6% |
+| channel_is_streaming_dsp | 2.2% |
+| apple_share_new_90d | 1.2% |
+| channel_is_short_video | 1.2% |
+| broadband_per_100, Apple genre HHI, Apple artist diversity, social channel flag | 0% |
+
+Confidence on the allocated rows is about 0.34 to 0.53, under the 0.85 cap.
+
+### Budget split of 100,000
+
+`python3 -m src.cli recommend --budget 100000` ranks by the out-of-fold prediction. Because those predictions barely differ, the split is nearly even: about 3.1% to 5.9% per market × channel. The largest pieces are Thailand social (5.88%), Vietnam streaming (5.63%), and Vietnam social (5.49%). That is not a finding that those channels return more money. It is what a low-separation model does when multiplied by confidence. Sync and paid social get nothing, because there is no public rate to score.
+
+If you rank the proxy formula instead of the model, the top rows are Indonesia short video (0.77), Vietnam short video (0.61), and China short video (0.51). That ranking is also not observed campaign ROI. The CLI prints both when R² is negative.
 
 ## Limitations
 

@@ -1,11 +1,11 @@
 # Public data sources
 
-Terminal Two only trains on numbers that a pull actually returned. This file is the catalog. The latest pull's successes and failures are in `data/raw/latest_run.json`. The append-only history is `data/raw/_failed_sources.jsonl` (one JSON object per line, with `run_id`).
+Terminal Two only trains on numbers that a pull actually returned. This file is the catalog. The latest pull's successes and failures are in `data/raw/latest_run.json`. `data/raw/_failed_sources.jsonl` is the same run as JSON lines: it is cleared at the start of each ingestion so it does not mix a killed run with a finished one.
 
 Re-fetch everything from the repository root:
 
 ```bash
-python -m src.ingestion.run
+python3 -m src.ingestion.run
 ```
 
 Cached envelopes live in `data/raw/` with the run id in the filename. `data/raw/manifest.json` points at the files from the latest run.
