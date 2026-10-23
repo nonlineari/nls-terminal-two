@@ -113,9 +113,14 @@ def allocate_groups(
     """Allocate budget across groups, then split each group equally across its rows.
 
     Each group is a list of row dicts. The group's weight is
-    max(first row pred, 0) * first row confidence. That weight is divided
-    equally across the rows in the group, then all rows are percent-split
-    together so the shares sum to 100 and the amounts sum to the budget.
+    max(first row pred, 0) * first row confidence * cost_factor (default 1.0).
+    That weight is divided equally across the rows in the group, then all rows
+    are percent-split together so the shares sum to 100 and the amounts sum to
+    the budget.
+
+    ``cost_factor`` is optional on each row (default 1.0). Callers that load
+    CPM/CPC set it via ``src.rates.cost_adjust.cost_efficiency_factors``. When
+    every factor is 1.0, behavior matches the pre-rate-card pipeline.
 
     In channel mode every row is its own group. In market-only mode the three
     channels share one group, so a market is not triple-counted.
@@ -129,10 +134,13 @@ def allocate_groups(
             raise ValueError("empty allocation group")
         pred = float(members[0]["pred"])
         confidence = float(members[0]["confidence"])
-        group_weight = max(pred, 0.0) * max(confidence, 0.0)
+        cost_factor = float(members[0].get("cost_factor", 1.0) or 1.0)
+        group_weight = max(pred, 0.0) * max(confidence, 0.0) * max(cost_factor, 0.0)
         share = group_weight / len(members)
         for member in members:
-            flat_rows.append(dict(member))
+            row = dict(member)
+            row.setdefault("cost_factor", cost_factor)
+            flat_rows.append(row)
             flat_weights.append(share)
     percents = percent_split(flat_weights)
     amounts = money_split(budget, percents)

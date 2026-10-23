@@ -16,6 +16,7 @@ from src.config import (
 )
 from src.jsonutil import read_json
 from src.output.scoring import allocate_groups
+from src.rates.cost_adjust import cost_efficiency_factors
 
 logger = logging.getLogger(__name__)
 
@@ -45,6 +46,39 @@ def _as_bool(value: object) -> bool:
     return bool(value)
 
 
+
+def _finite_or_none(value: object) -> float | None:
+    if value is None:
+        return None
+    try:
+        if pd.isna(value):
+            return None
+    except TypeError:
+        pass
+    try:
+        number = float(value)
+    except (TypeError, ValueError):
+        return None
+    if number != number or number <= 0:  # NaN or non-positive
+        return None
+    return number
+
+
+def _rate_lookup_from_matrix() -> dict[tuple[str, str], tuple[float | None, float | None]]:
+    """Map (market_code, channel) -> (cpm, cpc) from the feature matrix."""
+    if not FEATURE_MATRIX_PATH.exists():
+        return {}
+    frame = pd.read_csv(FEATURE_MATRIX_PATH)
+    if "market_code" not in frame.columns or "channel" not in frame.columns:
+        return {}
+    out: dict[tuple[str, str], tuple[float | None, float | None]] = {}
+    for row in frame.itertuples(index=False):
+        cpm = _finite_or_none(getattr(row, "ad_cpm_usd_observed", None))
+        cpc = _finite_or_none(getattr(row, "ad_cpc_usd_observed", None))
+        out[(str(row.market_code), str(row.channel))] = (cpm, cpc)
+    return out
+
+
 def run_recommend(budget: float) -> int:
     if not PREDICTIONS_PATH.exists():
         logger.error("Missing %s. Run: python -m src.model.train", PREDICTIONS_PATH)
@@ -61,24 +95,36 @@ def run_recommend(budget: float) -> int:
         logger.error("Prediction file is missing columns: %s", ", ".join(sorted(missing)))
         return 1
     metrics = read_json(METRICS_PATH) if METRICS_PATH.exists() else {}
+    rate_lookup = _rate_lookup_from_matrix()
     groups: dict[str, list[dict]] = {}
     order: list[str] = []
+    staged: list[dict] = []
     for row in predictions.itertuples(index=False):
         group = str(row.allocation_group)
         if group not in groups:
             order.append(group)
             groups[group] = []
-        groups[group].append(
-            {
-                "market_code": row.market_code,
-                "market_name": row.market_name,
-                "channel": row.channel,
-                "channel_label": row.channel_label,
-                "pred": float(row.pred_loocv),
-                "confidence": float(row.confidence),
-                "channel_informed": _as_bool(row.channel_informed),
-            }
-        )
+        cpm, cpc = rate_lookup.get((str(row.market_code), str(row.channel)), (None, None))
+        entry = {
+            "market_code": row.market_code,
+            "market_name": row.market_name,
+            "channel": row.channel,
+            "channel_label": row.channel_label,
+            "pred": float(row.pred_loocv),
+            "confidence": float(row.confidence),
+            "channel_informed": _as_bool(row.channel_informed),
+            "ad_cpm_usd_observed": cpm,
+            "ad_cpc_usd_observed": cpc,
+        }
+        groups[group].append(entry)
+        staged.append(entry)
+    factors = cost_efficiency_factors(
+        [item["ad_cpm_usd_observed"] for item in staged],
+        [item["ad_cpc_usd_observed"] for item in staged],
+    )
+    rates_applied = any(factor != 1.0 for factor in factors)
+    for item, factor in zip(staged, factors):
+        item["cost_factor"] = factor
     allocated = allocate_groups([groups[key] for key in order], budget)
     allocated.sort(key=lambda row: (-row["pred"], -row["confidence"], row["market_name"], row["channel"]))
     channel_informed = _as_bool(predictions["channel_informed"].iloc[0])
@@ -94,6 +140,21 @@ def run_recommend(budget: float) -> int:
     if not channel_informed:
         lines.append(
             "Channel attention was missing, so each market's budget is split equally across the three channels."
+        )
+    if rates_applied:
+        lines.append(
+            "Cost-aware reweight is on: rows with rate-card CPM/CPC are scaled by "
+            "median(cost)/cost (cheaper inventory gets a larger share). "
+            "Rows without a rate keep factor 1.0."
+        )
+    elif any(item["ad_cpm_usd_observed"] is not None or item["ad_cpc_usd_observed"] is not None for item in staged):
+        lines.append(
+            "Rate-card CPM/CPC are present but relative costs did not change weights "
+            "(single cost level or factors all 1.0)."
+        )
+    else:
+        lines.append(
+            "No rate-card CPM/CPC loaded; allocation matches the pre-rate-card split."
         )
     if r2 is not None and r2 < 0:
         lines.append(

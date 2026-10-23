@@ -81,6 +81,12 @@ UNAVAILABLE_COLUMNS: tuple[str, ...] = (
     "sync_rate_game_usd",
     "brand_deal_count_observed",
     "brand_deal_avg_usd_observed",
+)
+
+# Optional rate-card columns. Populated only when an enabled rate card is
+# configured. Kept out of MODEL_FEATURES so training with nulls matches today;
+# recommend/ uses them for cost-aware reweight when present.
+OPTIONAL_RATE_COLUMNS: tuple[str, ...] = (
     "ad_cpm_usd_observed",
     "ad_cpc_usd_observed",
 )
@@ -121,7 +127,7 @@ LIMITATIONS: tuple[str, ...] = (
     "The training label is a documented formula, not NLS campaign profit or loss.",
     "Leave-one-market-out on seven markets is a small sample. The metrics move if one market is unusual.",
     "Language-edition Wikipedia pageviews are not streaming MAU and are not a clean country panel.",
-    "No public sync rate card or territory CPM/CPC series entered the model.",
+    "No public sync rate card entered the model. Territory CPM/CPC enter the matrix only from an enabled local rate card; they are not model features.",
     "Ages 0-14 stand in for a youth audience. The 15-24 World Bank indicator id was rejected by the API.",
     "Mobile, broadband, and server density still correlate with income and internet use, so some fit is mechanical.",
     "Confidence is capped at 0.85 because the label is synthetic.",

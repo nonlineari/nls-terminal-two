@@ -342,13 +342,13 @@
     },
     {
       "name": "ad_cpm_usd_observed",
-      "role": "unavailable",
-      "description": "No public CPM by platform and territory was retrieved. Not filled with a guess."
+      "role": "optional_observed",
+      "description": "Territory CPM (USD) from an enabled rate-card JSON when supplied. Null without credentials/file; never invented."
     },
     {
       "name": "ad_cpc_usd_observed",
-      "role": "unavailable",
-      "description": "No public CPC by platform and territory was retrieved."
+      "role": "optional_observed",
+      "description": "Territory CPC (USD) from an enabled rate-card JSON when supplied. Null without credentials/file; never invented."
     },
     {
       "name": "channel_is_streaming_dsp",

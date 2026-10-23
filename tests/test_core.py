@@ -6,7 +6,9 @@ These tests do not touch the network and do not need a trained model.
 from __future__ import annotations
 
 import math
+import tempfile
 import unittest
+from pathlib import Path
 
 from src.features.apple_math import apple_chart_features
 from src.features.attention_math import attention_shares, hhi
@@ -26,6 +28,7 @@ from src.model.spec import (
     FORMULA_AND_MODEL,
     LEAKAGE_COLUMNS,
     MODEL_FEATURES,
+    OPTIONAL_RATE_COLUMNS,
     UNAVAILABLE_COLUMNS,
 )
 from src.output.scoring import (
@@ -35,6 +38,9 @@ from src.output.scoring import (
     money_split,
     percent_split,
 )
+from src.rates.cost_adjust import cost_efficiency_factors
+from src.rates.rate_card import load_rate_card, rates_for
+from src.jsonutil import write_json
 
 
 class SeriesTests(unittest.TestCase):
@@ -140,10 +146,13 @@ class ContractTests(unittest.TestCase):
         self.assertFalse(set(FORMULA_AND_MODEL) & set(LEAKAGE_COLUMNS))
         self.assertTrue(set(COMPLETENESS_FIELDS).issubset(MODEL_FEATURES))
         self.assertFalse(set(UNAVAILABLE_COLUMNS) & set(MODEL_FEATURES))
+        self.assertFalse(set(OPTIONAL_RATE_COLUMNS) & set(MODEL_FEATURES))
+        self.assertFalse(set(OPTIONAL_RATE_COLUMNS) & set(UNAVAILABLE_COLUMNS))
         names = set(column_names())
         self.assertTrue(set(MODEL_FEATURES).issubset(names))
         self.assertTrue(set(LEAKAGE_COLUMNS).issubset(names))
         self.assertTrue(set(UNAVAILABLE_COLUMNS).issubset(names))
+        self.assertTrue(set(OPTIONAL_RATE_COLUMNS).issubset(names))
         self.assertNotIn("market_code", MODEL_FEATURES)
 
     def test_apple_skips_generic_music_genre(self) -> None:
@@ -228,6 +237,83 @@ class AllocationTests(unittest.TestCase):
         self.assertLessEqual(confidence_score(1, 1, 1), CONFIDENCE_CAP)
         self.assertLessEqual(confidence_score(5, 5, 5), CONFIDENCE_CAP)
         self.assertGreaterEqual(confidence_score(0, 0, 0), 0.05)
+
+
+
+class RateCardTests(unittest.TestCase):
+    def test_no_credentials_returns_empty_card(self) -> None:
+        card = load_rate_card(path=Path("/nonexistent/rate_card_missing.json"))
+        self.assertFalse(card.populated)
+        lookup = rates_for(card, "KR", "short_video")
+        self.assertIsNone(lookup.cpm_usd)
+        self.assertIsNone(lookup.cpc_usd)
+        factors = cost_efficiency_factors([None, None], [None, None])
+        self.assertEqual(factors, [1.0, 1.0])
+
+    def test_disabled_example_does_not_load_placeholder_numbers(self) -> None:
+        example = Path(__file__).resolve().parents[1] / "config" / "rate_card.example.json"
+        self.assertTrue(example.exists())
+        card = load_rate_card(path=example)
+        self.assertFalse(card.enabled)
+        self.assertFalse(card.populated)
+
+    def test_enabled_fixture_populates_lookup_and_cost_factors(self) -> None:
+        payload = {
+            "enabled": True,
+            "currency": "USD",
+            "source": "unit-test fixture",
+            "rates": [
+                {"market_code": "KR", "channel": "short_video", "cpm_usd": 4.0, "cpc_usd": 0.4},
+                {"market_code": "JP", "channel": "short_video", "cpm_usd": 8.0, "cpc_usd": 0.8},
+                {"market_code": "ID", "channel": "social_influencer", "cpm_usd": 2.0},
+            ],
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "rates.json"
+            write_json(path, payload)
+            card = load_rate_card(path=path)
+        self.assertTrue(card.populated)
+        self.assertEqual(rates_for(card, "KR", "short_video").cpm_usd, 4.0)
+        self.assertEqual(rates_for(card, "JP", "short_video").cpm_usd, 8.0)
+        self.assertIsNone(rates_for(card, "VN", "streaming_dsp").cpm_usd)
+
+        # Cheaper CPM (ID 2.0) should get a higher factor than JP 8.0; missing stays 1.0.
+        cpm = [4.0, 8.0, 2.0, None]
+        factors = cost_efficiency_factors(cpm, [None, None, None, None])
+        self.assertEqual(len(factors), 4)
+        self.assertEqual(factors[3], 1.0)
+        self.assertGreater(factors[2], factors[0])
+        self.assertGreater(factors[0], factors[1])
+
+        # Allocation with cost factors still sums to budget; cheaper row gets more.
+        groups = [
+            [{"pred": 1.0, "confidence": 1.0, "cost_factor": factors[0], "channel": "kr"}],
+            [{"pred": 1.0, "confidence": 1.0, "cost_factor": factors[1], "channel": "jp"}],
+            [{"pred": 1.0, "confidence": 1.0, "cost_factor": factors[2], "channel": "id"}],
+        ]
+        rows = allocate_groups(groups, 1000)
+        by_channel = {row["channel"]: row["amount"] for row in rows}
+        self.assertGreater(by_channel["id"], by_channel["kr"])
+        self.assertGreater(by_channel["kr"], by_channel["jp"])
+        self.assertAlmostEqual(sum(row["amount"] for row in rows), 1000.0)
+
+    def test_allocate_without_cost_factor_unchanged(self) -> None:
+        groups = [
+            [{"pred": 0.4, "confidence": 0.5}],
+            [{"pred": 0.2, "confidence": 0.5}],
+        ]
+        plain = allocate_groups(groups, 100)
+        with_default = allocate_groups(
+            [
+                [{"pred": 0.4, "confidence": 0.5, "cost_factor": 1.0}],
+                [{"pred": 0.2, "confidence": 0.5, "cost_factor": 1.0}],
+            ],
+            100,
+        )
+        self.assertEqual(
+            [row["percent"] for row in plain],
+            [row["percent"] for row in with_default],
+        )
 
 
 if __name__ == "__main__":
