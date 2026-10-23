@@ -8,6 +8,7 @@ Roles:
 - proxy_label: synthetic training target or an ingredient of it
 - model_flag: constructed design-matrix column
 - unavailable: schema placeholder; always null in this pipeline
+- optional_observed: filled only when an enabled rate card (or future authorized pull) supplies the value; null otherwise
 """
 
 from __future__ import annotations
@@ -81,8 +82,8 @@ COLUMNS: tuple[dict[str, str], ...] = (
     {"name": "sync_rate_game_usd", "role": "unavailable", "description": "No public game sync rate card was retrieved."},
     {"name": "brand_deal_count_observed", "role": "unavailable", "description": "No public count of brand or influencer deals was retrieved."},
     {"name": "brand_deal_avg_usd_observed", "role": "unavailable", "description": "No public influencer rate card was retrieved."},
-    {"name": "ad_cpm_usd_observed", "role": "unavailable", "description": "No public CPM by platform and territory was retrieved. Not filled with a guess."},
-    {"name": "ad_cpc_usd_observed", "role": "unavailable", "description": "No public CPC by platform and territory was retrieved."},
+    {"name": "ad_cpm_usd_observed", "role": "optional_observed", "description": "Territory CPM (USD) from an enabled rate-card JSON when supplied. Null without credentials/file; never invented."},
+    {"name": "ad_cpc_usd_observed", "role": "optional_observed", "description": "Territory CPC (USD) from an enabled rate-card JSON when supplied. Null without credentials/file; never invented."},
     {"name": "channel_is_streaming_dsp", "role": "model_flag", "description": "1 if this row is the streaming DSP channel."},
     {"name": "channel_is_short_video", "role": "model_flag", "description": "1 if this row is the short-video channel."},
     {"name": "channel_is_social_influencer", "role": "model_flag", "description": "1 if this row is the social/influencer channel."},

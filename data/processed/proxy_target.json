@@ -31,5 +31,14 @@
   "labeled_rows": 21,
   "markets": 7,
   "ingestion_run_id": "20261022T054656Z",
-  "limitation": "proxy_return_per_dollar is not observed campaign ROI. Unavailable sync, MAU, brand-deal, and CPM columns are null on purpose."
+  "rate_card": {
+    "enabled": false,
+    "populated_rows": 0,
+    "source": null,
+    "path": null,
+    "notes": [
+      "No rate-card file configured; CPM/CPC columns stay null."
+    ]
+  },
+  "limitation": "proxy_return_per_dollar is not observed campaign ROI. Unavailable sync, MAU, and brand-deal columns are null on purpose. CPM/CPC are null unless an enabled rate-card JSON supplies them."
 }

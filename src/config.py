@@ -25,6 +25,10 @@ METADATA_PATH = MODELS_DIR / "metadata.json"
 METRICS_PATH = MODELS_DIR / "metrics.json"
 PREDICTIONS_PATH = MODELS_DIR / "loocv_predictions.csv"
 
+# Optional CPM/CPC rate card. Default file is not committed; copy the example.
+RATE_CARD_DEFAULT_PATH = ROOT / "config" / "rate_card.json"
+RATE_CARD_EXAMPLE_PATH = ROOT / "config" / "rate_card.example.json"
+
 SEED = 42
 FORMULA_ID = "proxy-v1"
 USER_AGENT = (

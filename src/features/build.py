@@ -27,6 +27,7 @@ from src.features.pageviews import channel_attention
 from src.features.proxy_target import FORMULA_TEXT, build_opportunity, proxy_return
 from src.jsonutil import read_json, write_json
 from src.model.spec import COMPLETENESS_FIELDS
+from src.rates.rate_card import load_rate_card, rates_for
 
 logger = logging.getLogger(__name__)
 
@@ -54,6 +55,7 @@ def build() -> int:
     attention = channel_attention(_load(files.get("attention")))
     fx_date = fx.get("date")
     fx_by_market = fx.get("by_market") or {}
+    rate_card = load_rate_card()
 
     users = {code: row.get("internet_users") for code, row in macro.items()}
     cagr = {code: row.get("internet_user_cagr") for code, row in macro.items()}
@@ -125,6 +127,9 @@ def build() -> int:
             row["channel_is_streaming_dsp"] = 1 if channel == "streaming_dsp" else 0
             row["channel_is_short_video"] = 1 if channel == "short_video" else 0
             row["channel_is_social_influencer"] = 1 if channel == "social_influencer" else 0
+            rates = rates_for(rate_card, code, channel)
+            row["ad_cpm_usd_observed"] = rates.cpm_usd
+            row["ad_cpc_usd_observed"] = rates.cpc_usd
             matrix_rows.append(row)
 
     frame = pd.DataFrame(matrix_rows)
@@ -157,9 +162,17 @@ def build() -> int:
             "labeled_rows": labeled,
             "markets": len(macro),
             "ingestion_run_id": manifest.get("run_id"),
+            "rate_card": {
+                "enabled": rate_card.enabled,
+                "populated_rows": len(rate_card.by_key),
+                "source": rate_card.source or None,
+                "path": rate_card.path,
+                "notes": list(rate_card.notes),
+            },
             "limitation": (
                 "proxy_return_per_dollar is not observed campaign ROI. "
-                "Unavailable sync, MAU, brand-deal, and CPM columns are null on purpose."
+                "Unavailable sync, MAU, and brand-deal columns are null on purpose. "
+                "CPM/CPC are null unless an enabled rate-card JSON supplies them."
             ),
         },
     )

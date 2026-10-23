@@ -10,3 +10,6 @@ dist/
 build/
 .DS_Store
 *.log
+
+# Local authorized rates (example file is committed)
+config/rate_card.json

@@ -1,0 +1,31 @@
+{
+  "enabled": false,
+  "currency": "USD",
+  "source": "EXAMPLE PLACEHOLDER — not live territorial rates. Copy to config/rate_card.json, replace numbers with authorized CPM/CPC, set enabled=true.",
+  "rates": [
+    {
+      "market_code": "KR",
+      "channel": "short_video",
+      "cpm_usd": 5.0,
+      "cpc_usd": 0.40
+    },
+    {
+      "market_code": "JP",
+      "channel": "short_video",
+      "cpm_usd": 7.5,
+      "cpc_usd": 0.55
+    },
+    {
+      "market_code": "ID",
+      "channel": "social_influencer",
+      "cpm_usd": 2.5,
+      "cpc_usd": 0.15
+    },
+    {
+      "market_code": "VN",
+      "channel": "streaming_dsp",
+      "cpm_usd": 3.0,
+      "cpc_usd": null
+    }
+  ]
+}

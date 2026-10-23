@@ -14,7 +14,7 @@ Released under the [MIT License](LICENSE).
 public APIs  →  data/raw  →  feature matrix  →  XGBoost  →  budget split
 ```
 
-1. **Ingest.** World Bank development indicators, Frankfurter exchange rates, Wikidata sitelinks, Wikimedia pageviews, and Apple Music most-played charts. Sync rate cards, territory CPM/CPC, platform MAU, and IFPI territory revenue are requested or probed and, when they do not come back as territorial numbers, left null.
+1. **Ingest.** World Bank development indicators, Frankfurter exchange rates, Wikidata sitelinks, Wikimedia pageviews, and Apple Music most-played charts. Sync rate cards, platform MAU, and IFPI territory revenue are requested or probed and, when they do not come back as territorial numbers, left null. Territory CPM/CPC may also come from an optional local rate-card JSON (`src/rates/`); without it they stay null.
 2. **Features.** One row per market × channel (`streaming_dsp`, `short_video`, `social_influencer`). An indie accessibility score is a documented heuristic. It is reported and not fed to the model.
 3. **Model.** A small XGBoost ensemble predicts the proxy label. Evaluation is leave-one-market-out, compared with a train-fold mean. The saved artifact is `models/promo_return_xgb.joblib`.
 4. **Recommend.** The CLI loads that artifact, ranks market × channel rows by the out-of-fold proxy index, and prints a percentage split of the budget you pass in.
@@ -76,14 +76,31 @@ python3 -m src.cli recommend --budget 100000
 python3 -m unittest discover -s tests -v
 ```
 
+### Optional CPM/CPC rate card
+
+Territory CPM/CPC stay null unless you supply an enabled rate-card JSON. Nothing is invented.
+
+1. Copy `config/rate_card.example.json` to `config/rate_card.json` (or any path).
+2. Replace the EXAMPLE numbers with authorized rates. Set `"enabled": true`.
+3. Optionally set `NLS_RATE_CARD_PATH` to that file. If unset, `config/rate_card.json` is used when present.
+4. Rebuild features (and re-run recommend): `python3 -m src.features.build`.
+
+Expected shape is documented in `src/rates/rate_card.py` and the example file: a list of `{market_code, channel, cpm_usd?, cpc_usd?}` for scored channels only (`streaming_dsp`, `short_video`, `social_influencer`). Sync and paid social stay unscored.
+
+`NLS_AD_PLATFORM_API_KEY` / `NLS_AD_PLATFORM_API_SECRET` are credential stubs for a future ad-platform pull. They do not fetch or fabricate rates today.
+
+When rates are present, `recommend` multiplies each row's allocation weight by a cost-efficiency factor (`median(cost) / cost` on CPM, else CPC). Rows without a rate keep factor 1.0. With no rate card, the split matches the previous behavior.
+
 ## Layout
 
 ```text
 data/raw/            cached pulls and the failure log
 data/processed/      feature matrix, dictionary, proxy notes
 data/sources.md      every public source, with links
+config/              rate_card.example.json (copy to rate_card.json to enable)
 src/ingestion/       fetchers
 src/features/        transforms and the proxy label
+src/rates/           optional CPM/CPC rate-card load + cost-aware reweight
 src/model/           XGBoost training
 src/output/          confidence and the budget split
 models/              joblib artifact, metadata, LOOCV predictions
@@ -171,7 +188,7 @@ If you rank the proxy formula instead of the model, the top rows are Indonesia s
 - The label is a formula. Confidence is capped at 0.85 for that reason.
 - Seven markets, held out one at a time, is a small test. One unusual market moves the metrics.
 - Wikipedia pageviews are not streaming MAU. `zh.wikipedia` and `zh-yue.wikipedia` are not a census of China and Hong Kong.
-- No public sync rate card or territory CPM/CPC series is in the model. Those columns are null on purpose.
+- No public sync rate card is in the model. Territory CPM/CPC columns are null unless an enabled local rate card supplies them; they are not model features.
 - Ages 0–14 are not ages 15–24.
 - Apple charts are one snapshot.
 - The allocation is a split of the number you pass to `--budget`. It is not converted, and it is not a forecast of revenue.
@@ -182,7 +199,7 @@ If you rank the proxy formula instead of the model, the top rows are Indonesia s
 - Replace the proxy with internal campaign P&L if NLS can share it. Until then, do not tune the formula to make R² look better.
 - Territory subscriber or MAU series from a primary disclosure, not a global IFPI sentence copied onto every market.
 - A real 15–24 population series (UN World Population Prospects) in place of ages 0–14.
-- Authorized ad-platform CPM/CPC by country, skipped cleanly when no credential is present.
+- Authorized ad-platform CPM/CPC by country: local rate-card hooks are in `src/rates/` (skipped cleanly when no file/credential). Wire a real platform API when credentials exist.
 - Sync quotes by placement type (film, TV, advertising, games) from a rate card that is actually public and machine-readable.
 - A better Hong Kong attention panel than Cantonese Wikipedia alone.
 - Recalibrate confidence only after the label is observed money.
